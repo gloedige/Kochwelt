@@ -1,0 +1,35 @@
+#dish-presentation {
+    color:aliceblue
+}
+.img-container {
+    background-image: url("/Kochwelt/img/shackshuka.jpg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    margin: 0 160px;
+    border-radius: 15px
+}
+#text-aligning {
+    text-align: left;
+    width: auto;
+    padding: 0 160px;
+    padding-bottom: 16px;
+}
+#button-aligning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-left: 160px;
+    padding-top: 20px;
+}
+.info-container {
+    background-color: grey; /*anpassen mit colorpicker*/
+    background-position: center;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding:5px 10px;
+}
