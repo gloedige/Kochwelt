@@ -1,12 +1,51 @@
-h1 {
-    font-family:'Raleway' bold;
-    font-size: 32px;
-    font-weight: bold;
+html {
+    scroll-behavior: smooth;
 }
-.color-h1 {
-    color: black;
+body {
+    margin: 0px;
+    font-family: raleway;
 }
-.impressum {
+
+.button{
+    font-size: 16px;
+    background-color: rgb(0, 128, 0);
+    outline-style: solid;
+    border: none;
+    color: white;
+    padding: 12px 48px;
+    border-radius: 0px;
     display: flex;
-    
+    gap: 5px;
+}
+.button:hover{
+    background-color:rgb(0, 160, 0);
+}
+#button-link{
+    text-decoration: none;
+}
+h1{
+    font-size: 48px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    margin-top: 120px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+@font-face {
+    font-family: raleway;
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);
 }
