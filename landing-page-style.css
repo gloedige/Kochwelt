@@ -1,6 +1,6 @@
 .section-croissants{
     display: flex;
-    margin: 0px 160px;
+    padding: 0px 160px;
 }
 .croissant-img{
     height: 300px;
@@ -11,5 +11,7 @@ h2{
 }
 .croissants-info{
     margin-left: 32px;
-    flex:1;
+}
+.croissants-text{
+    margin-bottom: 100px;
 }
