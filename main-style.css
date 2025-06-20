@@ -1,0 +1,12 @@
+h1 {
+    font-family:'Raleway' bold;
+    font-size: 32px;
+    font-weight: bold;
+}
+.color-h1 {
+    color: black;
+}
+.impressum {
+    display: flex;
+    
+}
