@@ -18,6 +18,13 @@
     width: auto;
     padding-bottom: 16px;
 }
+#aligning-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
 .button-aligning {
     display: flex;
     flex-direction: row;
@@ -25,6 +32,7 @@
     align-items: center;
     width: 300px;
     padding-top: 20px;
+    padding-bottom: 10px;
     gap:32px;
     color:aliceblue
 }
@@ -48,12 +56,14 @@
 #section-seperator {
     background-color: grey; /*anpassen mit colorpicker*/
     height: 0.5px;
-    width: 100%;
+    width: auto;
     margin-top:50px;
+    margin: 0 160px;
     opacity: 0.2;
 }
 #ingredient-calculation {
-
+    display: flex;
+    flex-direction: column;
 }
 #inputfield-aligning {
     margin-left:160px;
@@ -62,10 +72,11 @@
 }
 table#customers {
     border-spacing: 0;
-    margin-left:160px;
+    margin:0 160px;
+    width: auto;
 }
-tbody {
-    border-radius: 5px;
+table,td {
+    border-radius: 10px;
 }
 td {
     padding:10px;
@@ -73,13 +84,20 @@ td {
 }
 .ws-table-all tr:nth-child(even) {
     background-color:#fff;
+    border-radius: 12px;
 }
 .ws-table-all tr:nth-child(odd) {
     background-color:#f2f2f2;
+    border-radius: 12px;   
 }
 #creator-name {
     font-family:'Raleway'; /*anpassen Font datei einbinden @Font-Face*/
     color: black;
     font-size: 24px;
     font-weight:200;
+}
+#Avatar {
+    border-radius: 50%;
+    width:100px;
+    height:auto;
 }
