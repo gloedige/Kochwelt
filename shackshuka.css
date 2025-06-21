@@ -24,12 +24,29 @@
     width: 300px;
     margin-left: 160px;
     padding-top: 20px;
+    gap:32px;
 }
 .info-container {
     background-color: grey; /*anpassen mit colorpicker*/
-    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: auto;
     height: auto;
     border-radius: 5px;
     padding:5px 10px;
+    gap:16px;
+    white-space: nowrap;
+}
+.icon-buttons {
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+#section-seperator {
+    background-color: grey;
+    height: 0.5px;
+    width: 100%;
+    margin-top:50px;
+    opacity: 0.2;
 }
