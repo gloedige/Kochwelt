@@ -53,4 +53,5 @@ p{
 @font-face {
     font-family: raleway;
     src: url(./fonts/Raleway-VariableFont_wght.ttf);
+    font-display: fallback;
 }
