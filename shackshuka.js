@@ -12,6 +12,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
 modal.style.display = "none";
 }
+<<<<<<< HEAD
 //recipe calc// 
 let IngridientAmount1 = 150,
     IngridientAmount2 = 1,
@@ -30,4 +31,13 @@ function calculate(event) {
     document.getElementById("IngridientAmount5").innerHTML = (IngridientAmount5 * portionen)+ " Prise(n)";
     document.getElementById("IngridientAmount6").innerHTML = IngridientAmount6 * portionen;
     document.getElementById("IngridientAmount7").innerHTML = IngridientAmount7 * portionen;
+=======
+//calc funktion für Rezept//
+    function myFunction() {
+var x = document.getElementById("quantity").value;
+document.getElementById("amount").innerHTML = x;
+console.log(x);
+var a = "150g"
+let b = a*
+>>>>>>> b0f6218 (Add first JS to html)
 }
