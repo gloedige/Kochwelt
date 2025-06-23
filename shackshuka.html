@@ -26,7 +26,12 @@
     <main>
         <section id="dish-presentation" class="margin">
             <h2 id="text-aligning">Shackshuka</h2>
-            <div id="img-container">
+            <img id="my-Img" src="/Kochwelt/img/shackshuka.jpg" alt="Shackshuka">
+            <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+            </div>
             </div>
             <div class="button-aligning">
                 <div class="info-container"><img class="icon-buttons" src="/Kochwelt/img/icons/clock-regular.svg" alt="cooking time">30 min</div>
@@ -37,38 +42,45 @@
         <div id="section-seperator">
         </div>
         <section id="ingredient-calculation">
-            <div id="inputfield-aligning">
-                Zutaten für <input>
-            </div>
+            <form id="inputfield-aligning">
+                Zutaten für <input type="number" id="quantity" min="1"max="50"> 
+                <button id="button-styling"type="submit">Portionen</button>
+            </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
+                    <td></td>
                     <td>Tomate(n), vollreife, evtl. aus der Dose</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Olivenöl</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Frühlingszwiebel(n)</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Knoblauchzehe(n), in Scheiben geschnitten</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Kreuzkümmel</td>
                 </tr>
                 <tr>
-                    <td>Kreuzkümmel</td>
-                </tr>
-                <tr>
+                    <td></td>
                     <td>Cayennepfeffer oder Chiliflocken</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Salz und Pfeffer</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Ei(er)</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>Petersilie, glatte, frisch und/oder Koriandergrün</td>
                 </tr>
             </table>
@@ -91,5 +103,6 @@
             </div>
         </section>
     </main>
+    <script src="shackshuka.js"></script>
 </body>
 </html>
