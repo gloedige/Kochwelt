@@ -1,6 +1,3 @@
-html,body {
-    margin:0;
-}
 .margin {
     margin-right: 160px;
     margin-left: 160px;
@@ -129,15 +126,6 @@ html,body {
     padding-bottom: 16px;
     padding-top: 16px;
 }
-/* #button-styling { 
-    background-color: green;
-    color: white; /*anpassen mit colorpicker
-}*/
-/*button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey; 
-}*/
 table#customers {
     border-spacing: 0;
     margin:0 160px;
@@ -169,7 +157,14 @@ td {
     width:100px;
     height:auto;
 }
+#leftalign {
+    text-align: left;
+}
 @keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-} 
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
