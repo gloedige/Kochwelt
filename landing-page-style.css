@@ -1,10 +1,11 @@
 .section-croissants{
     display: flex;
     padding: 0px 160px;
+    margin-top: 120px;
 }
 .croissant-img{
     height: 300px;
-    margin-top: 120px;
+    margin-top: 0px;
 }
 .h2-croissants{
     text-align: left;
@@ -24,12 +25,13 @@
 
 }
 .single-reciepe-img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 .section-proposal-overview{
     background-color: #EFEFEF;
-    padding-top: 0px;
+    padding-top: 20px;
     padding-bottom: 100px;
+    margin-top: 100px;
 }
