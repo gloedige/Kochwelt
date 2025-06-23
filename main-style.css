@@ -62,26 +62,5 @@ span{
 @font-face {
     font-family: raleway;
     src: url(./fonts/Raleway-VariableFont_wght.ttf);
-}
-@media(max-width:700px){
-    h1{
-        font-size: 32px;
-    }
-    h2{
-        font-size: 24px;
-    }
-    p{
-        font-size: 16px;
-    }
-}
-@media(max-width:400px){
-    h1{
-        font-size: 24px;
-    }
-    h2{
-        font-size: 18px;
-    }
-    p{
-        font-size: 16px;
-    }
+    font-display: fallback;
 }
