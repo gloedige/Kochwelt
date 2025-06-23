@@ -6,7 +6,7 @@
     height: 300px;
     margin-top: 120px;
 }
-h2{
+.h2-croissants{
     text-align: left;
 }
 .croissants-info{
@@ -14,4 +14,22 @@ h2{
 }
 .croissants-text{
     margin-bottom: 100px;
+}
+.reciepe-overview{
+    display: flex;
+    padding: 0px 160px;
+    justify-content: space-between;
+}
+.single-reciepe{
+
+}
+.single-reciepe-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.section-proposal-overview{
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
