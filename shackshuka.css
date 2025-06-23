@@ -168,148 +168,6 @@
     margin-left: 160px;
     padding-bottom: 16px;
     padding-top: 16px;
-    height: 48px;
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-}
-input,
-button {
-    float: c;
-}
-#button-styling {
-    background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-    width: 128px;
-    height:35px;
-    cursor: pointer;
-}
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
-button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey;
-}
-.IngridientAmount {
-    text-align:right;
-    width:100px;
-}
-input,
-button {
-    float: c;
-}
-#button-styling {
-    background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-    width: 128px;
-    height:35px;
-    cursor: pointer;
-}
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
-button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey;
-}
-.IngridientAmount {
-    text-align:right;
-    width:100px;
-}
-input,
-button {
-    float: c;
-}
-#button-styling {
-    background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-    width: 128px;
-    height:35px;
-    cursor: pointer;
-}
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
-button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey;
-}
-.IngridientAmount {
-    text-align:right;
-    width:100px;
-}
-.IngridientAmount {
-    text-align:right;
-    width:100px;
-}
-input,
-button {
-    float: c;
-}
-#button-styling {
-    background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-    width: 128px;
-    height:35px;
-    cursor: pointer;
-}
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
-button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey;
-}
-.IngridientAmount {
-    text-align:right;
-    width:100px;
-}
-input,
-button {
-    float: c;
-}
-#button-styling {
-    background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-    width: 128px;
-    height:35px;
-    cursor: pointer;
-}
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
-button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey;
-}
-.IngridientAmount {
-    text-align:right;
-    width:100px;
 }
 table#customers {
     border-spacing: 0;
@@ -352,22 +210,17 @@ td {
     width:100px;
     height:auto;
 }
-.leftalign {
-    text-align: left;
-}
 #leftalign {
     text-align: left;
-    padding:20px 0;
 }
-.rightalign {
-    text-align:right;
-}
-
-.rightalign {
-    text-align:right;
-}
-
 @keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
     from {
         transform: scale(0);
     }

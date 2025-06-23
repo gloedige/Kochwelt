@@ -12,11 +12,11 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
 modal.style.display = "none";
 }
-//recipe calc//
-function myFunction(){
-    event.preventDefault();
-    var x = document.getElementById('portionen').valueAsNumber;
-    var cells = document.querySelectorAll('IngridientAmount')
-    console.log(td)
+//calc funktion für Rezept//
+    function myFunction() {
+var x = document.getElementById("quantity").value;
+document.getElementById("amount").innerHTML = x;
+console.log(x);
+var a = "150g"
+let b = a*
 }
-
