@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
     <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
-    <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet"href="main-style.css">
     <link rel="stylesheet"href="shackshuka.css">
@@ -15,11 +14,12 @@
 </head>
 <body>
     <header src="">
+    <header src="">
     </header>
     <main>
         <section id="dish-presentation" class="margin">
             <h2 id="text-aligning">Shackshuka</h2>
-            <img id="my-Img" src="/Kochwelt/img/shackshuka.jpg" alt="Shackshuka">
+            <img id="my-Img" src="./img/shackshuka.jpg" alt="Shackshuka">
             <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
@@ -33,20 +33,21 @@
                 <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">30 min</div>
                 <div class="info-container"><img class="icon-buttons" src="./img/icons/brain-solid.svg" alt="difficulty">simple</div>
                 <div class="info-container"><img class="icon-buttons" src="./img/icons/calendar-alt-regular.svg" alt="date of creation">20.06.2025</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">30 min</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/brain-solid.svg" alt="difficulty">simple</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/calendar-alt-regular.svg" alt="date of creation">20.06.2025</div>
             </div>
         </section>
         <div id="section-seperator">
         </div>
         <section id="ingredient-calculation">
             <form id="inputfield-aligning" onsubmit="return false">
-                Zutaten für 
-                <div id="button-input-connect">
-                <input type="number" id="quantity" min="1"max="50"required value="1"> 
+                Zutaten für <input type="number" id="quantity" min="1"max="50"required value="1"> 
                 <button onclick="myFunction()" id="button-styling"type="number">Portionen</button>
-                </div>
             </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
+                    <td><p id="a"></p></td>
                     <td><p id="a"></p></td>
                     <td>Tomate(n), vollreife, evtl. aus der Dose</td>
                 </tr>
@@ -86,9 +87,12 @@
         </section>
         <section class="margin">
             <h3 id="leftalign">Zubereitung</h3>
+            <h3 id="leftalign">Zubereitung</h3>
             <div class="button-aligning">
-                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">ca. 30 min</div>
-                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">Gesamtzeit ca. 30 min</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">ca 30 min</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">Gesamtzeit ca 30 min</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">ca 30 min</div>
+                <div class="info-container"><img class="icon-buttons" src="./img/icons/clock-regular.svg" alt="cooking time">Gesamtzeit ca 30 min</div>
             </div>
             <article>
                 Das Olivenöl in einer Pfanne erhitzen und die Frühlingszwiebeln, den Knoblauch sowie den Kreuzkümmel darin anbraten. Anschließend die Tomaten zusammen mit Cayennepfeffer, Salz und Pfeffer hinzufügen. Falls die Tomaten nicht süß genug sind, kann ein halber Teelöffel Zucker zugegeben werden. Alles etwa 15 Minuten köcheln lassen, bis die Tomaten weich, aber noch nicht vollständig zerfallen sind.
@@ -98,6 +102,7 @@
             <h3 class="leftalign">Rezept erstellt von</h3>
             <h3 class="leftalign">Rezept erstellt von</h3>
             <div id="aligning-picture">
+            <img id="Avatar" src="./img/profile.png" alt="Avatar">
             <img id="Avatar" src="./img/profile.png" alt="Avatar">
             <img id="Avatar" src="./img/profile.png" alt="Avatar">
             <span id="creator-name">Felix </span>
