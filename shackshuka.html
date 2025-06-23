@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
     <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
+    <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet"href="main-style.css">
     <link rel="stylesheet"href="shackshuka.css">
@@ -13,20 +14,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> <!--gegen den eingebundenen Font austauschen-->
 </head>
 <body>
-    <header>
-        <a href="./index.html"><div id="logo"role="img" aria-label="Kochwelt Logo"></div></a>
-            <nav class="distance horizontal">
-                <a class="grey" href="./index.html"target="_self">Start</a>
-                <a class="grey" href=""target="_self">Rezept des Tages</a>
-                <a class="grey" href="./Contact.html"target="_self">Kontakt</a>
-                <a class="grey" href="./Impressum.html" target="_self">Impressum</a>
-            </nav>
-        <div id="separator_horizontal"></div>
+    <header src="">
     </header>
     <main>
         <section id="dish-presentation" class="margin">
-            <h1 class="text-aligning">Shackshuka</h1>
-            <img id="my-Img" src="./img/shackshuka.jpg" alt="Shackshuka">
+            <h2 id="text-aligning">Shackshuka</h2>
+            <img id="my-Img" src="/Kochwelt/img/shackshuka.jpg" alt="Shackshuka">
             <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
@@ -44,11 +37,11 @@
         <section id="ingredient-calculation">
             <form id="inputfield-aligning">
                 Zutaten für <input type="number" id="quantity" min="1"max="50"> 
-                <button id="button"type="submit">Portionen</button>
+                <button id="button-styling"type="submit">Portionen</button>
             </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
-                    <td></td>
+                    <td><p id="a"></p></td>
                     <td>Tomate(n), vollreife, evtl. aus der Dose</td>
                 </tr>
                 <tr>
