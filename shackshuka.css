@@ -1,6 +1,3 @@
-html,body {
-    margin:0;
-}
 .margin {
     margin-right: 160px;
     margin-left: 160px;
@@ -132,6 +129,10 @@ html,body {
     padding-bottom: 16px;
     padding-top: 16px;
 }
+input,
+button {
+    float;m
+}
 #button-styling {
     background-color: green;
     color: white; /*anpassen mit colorpicker*/
@@ -171,6 +172,9 @@ td {
     border-radius: 50%;
     width:100px;
     height:auto;
+}
+#leftalign {
+    text-align: left;
 }
 @keyframes zoom {
     from {transform:scale(0)}

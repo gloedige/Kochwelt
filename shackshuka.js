@@ -13,6 +13,10 @@ span.onclick = function() {
 modal.style.display = "none";
 }
 //calc funktion für Rezept//
-function cal
-var input = document.getElementById("quantity").value;
-console.log
+    function myFunction() {
+var x = document.getElementById("quantity").value;
+document.getElementById("amount").innerHTML = x;
+console.log(x);
+var a = "150g"
+let b = a*
+}
