@@ -130,14 +130,19 @@
     margin-left: 160px;
     padding-bottom: 16px;
     padding-top: 16px;
-    height: 48px;
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
+}
+input,
+button {
+    float;m
+}
+#button-styling {
+    background-color: green;
+    color: white; /*anpassen mit colorpicker*/
+}
+button:hover {
+    cursor:pointer;
+    background-color:greenyellow;
+    color: grey;
 }
 table#customers {
     border-spacing: 0;
@@ -169,6 +174,9 @@ td {
     border-radius: 50%;
     width:100px;
     height:auto;
+}
+#leftalign {
+    text-align: left;
 }
 #leftalign {
     text-align: left;
