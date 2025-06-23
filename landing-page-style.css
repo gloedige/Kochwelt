@@ -1,0 +1,57 @@
+.section-croissants{
+    display: flex;
+    padding: 0px 160px;
+    margin-top: 120px;
+}
+.croissant-img{
+    height: 300px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.h2-croissants{
+    text-align: left;
+}
+.croissants-info{
+    margin-left: 32px;
+}
+.croissants-text{
+    margin-bottom: 100px;
+}
+.reciepe-overview{
+    display: flex;
+    padding: 0px 160px;
+    justify-content: space-between;
+}
+.single-reciepe{
+
+}
+.single-reciepe-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.section-proposal-overview{
+    background-color: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+.section-further-topics{
+    padding: 0px 160px;
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+.container-further-topics-info{
+    display: flex;
+}
+.further-topics-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 32px;
+}
+.further-topics-text{
+    margin-top:32px;
+    flex:1;
+}
