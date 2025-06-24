@@ -109,7 +109,11 @@
     width:128px;
     border-collapse: collapse;
 }
-
+#quantity {
+    height: 32px;
+    width: 128px;
+    padding:0px
+}
 .info-container {
     background-color: #efefef; 
     display: flex;
