@@ -31,3 +31,5 @@ function calculate(event) {
     document.getElementById("IngridientAmount6").innerHTML = IngridientAmount6 * portionen;
     document.getElementById("IngridientAmount7").innerHTML = IngridientAmount7 * portionen;
 }
+
+
