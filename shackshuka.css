@@ -357,6 +357,7 @@ td {
 }
 #leftalign {
     text-align: left;
+    padding:20px 0;
 }
 .rightalign {
     text-align:right;
