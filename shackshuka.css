@@ -97,6 +97,11 @@
     width: 128px;
     padding:0px
 }
+#quantity {
+    height: 32px;
+    width: 128px;
+    padding:0px
+}
 .info-container {
     background-color: grey; /*anpassen mit colorpicker*/
     display: flex;
