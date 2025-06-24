@@ -95,6 +95,11 @@
     gap:32px;
     color:aliceblue
 }
+#quantity {
+    height: 32px;
+    width: 128px;
+    padding:0px
+}
 .info-container {
     background-color: grey; /*anpassen mit colorpicker*/
     display: flex;
@@ -125,17 +130,34 @@
     flex-direction: column;
 }
 #inputfield-aligning {
-    margin-left:160px;
+    margin-left: 160px;
     padding-bottom: 16px;
     padding-top: 16px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }
 input,
 button {
-    float;m
+    float: c;
 }
 #button-styling {
     background-color: green;
     color: white; /*anpassen mit colorpicker*/
+    width: 128px;
+    height:35px;
+    cursor: pointer;
+}
+#button-input-connect {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: start;
 }
 button:hover {
     cursor:pointer;

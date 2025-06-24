@@ -35,8 +35,11 @@
         </div>
         <section id="ingredient-calculation">
             <form id="inputfield-aligning" onsubmit="return false">
-                Zutaten für <input type="number" id="quantity" min="1"max="50"required value="1"> 
+                Zutaten für 
+                <div id="button-input-connect">
+                <input type="number" id="quantity" min="1"max="50"required value="1"> 
                 <button onclick="myFunction()" id="button-styling"type="number">Portionen</button>
+                </div>
             </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
