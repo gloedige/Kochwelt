@@ -37,6 +37,4 @@ function calculate(event) {
 var x = document.getElementById("quantity").value;
 document.getElementById("amount").innerHTML = x;
 console.log(x);
-var a = "150g"
-let b = a*
 }
