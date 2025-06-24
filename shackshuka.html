@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
     <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
-    <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet"href="main-style.css">
     <link rel="stylesheet"href="shackshuka.css">
@@ -46,6 +45,7 @@
         <div id="section-seperator">
         </div>
         <section id="ingredient-calculation">
+            <form id="amount" onsubmit="calculate(event)">
 <<<<<<< HEAD
         <form id="amount" onsubmit="calculate(event)">
         Zutaten für
@@ -96,34 +96,34 @@
 =======
             <form id="inputfield-aligning" onsubmit="return false">
                 Zutaten für 
-                <div id="button-input-connect">
-                <input type="number" id="quantity" min="1"max="50"required value="1"> 
-                <button onclick="myFunction()" id="button-styling"type="number">Portionen</button>
+                <div id="button" class="button-adjust">
+                <input type="number" class="ingredient-calculation-aligning" id="portionen" name="portionen" min="1"max="50"required value="1"> 
+                <button class="button"type="submit">Portionen</button>
                 </div>
             </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
-                    <td><p id="a"></p></td>
+                    <td class="IngridientAmount" data-basis="150" data-info="g"></p></td>
                     <td>Tomate(n), vollreife, evtl. aus der Dose</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-info="n.B."></td>
                     <td>Olivenöl</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="1,25" data-info=""></td>
                     <td>Frühlingszwiebel(n)</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="0,25" data-info=""></td>
                     <td>Knoblauchzehe(n), in Scheiben geschnitten</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="0,25" data-info="TL,gestr."></td>
                     <td>Kreuzkümmel</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="¼" data-info="TL"></td>
                     <td>Cayennepfeffer oder Chiliflocken</td>
                 </tr>
                 <tr>
@@ -131,11 +131,11 @@
                     <td>Salz und Pfeffer</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="1" data-info=""></td>
                     <td>Ei(er)</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="0,75" data-info="EL"></td>
                     <td>Petersilie, glatte, frisch und/oder Koriandergrün</td>
                 </tr>
             </table>
