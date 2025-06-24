@@ -3,7 +3,6 @@ header {
   width: 100%;
   margin: 0px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -22,6 +21,7 @@ body {
   height: 92px;
   display: flex;
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 160px;
 }
 a {

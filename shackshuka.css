@@ -10,11 +10,8 @@ html,body {
 }
 /*Image Manipulation*/
 #my-Img {
-    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    background-position: center;
-    background-size: cover;
     object-fit: cover;
     width: 100%;
     height: 200px;
@@ -29,7 +26,7 @@ html,body {
     background-position-x: center;
     background-position-y: center;
     z-index: 1; 
-    padding-top: 100px; /
+    padding-top: 100px; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -75,7 +72,7 @@ html,body {
     cursor: pointer;
 }
 /*Image Manipulation End of the Section*/
-#text-aligning {
+.text-aligning {
     text-align: left;
     width: auto;
     padding-bottom: 16px;
@@ -132,15 +129,15 @@ html,body {
     padding-bottom: 16px;
     padding-top: 16px;
 }
-#button-styling {
+/* #button-styling { 
     background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-}
-button:hover {
+    color: white; /*anpassen mit colorpicker
+}*/
+/*button:hover {
     cursor:pointer;
     background-color:greenyellow;
-    color: grey;
-}
+    color: grey; 
+}*/
 table#customers {
     border-spacing: 0;
     margin:0 160px;
