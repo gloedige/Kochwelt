@@ -74,6 +74,8 @@
     width: auto;
     padding-top:64px;
     margin-bottom:8px;
+    padding-top:64px;
+    margin-bottom:8px;
 }
 #aligning-picture {
     display: flex;
@@ -89,6 +91,7 @@
     align-items: center;
     width: 300px;
     padding-top: 20px;
+    padding-bottom: 30px;
     padding-bottom: 30px;
     gap:32px;
     color:black;
@@ -109,25 +112,9 @@
     width:128px;
     border-collapse: collapse;
 }
-#quantity {
-    height: 32px;
-    width: 128px;
-    padding:0px
-}
-#portionen {
-    width: 128px;
-}
-#quantity {
-    height:auto;
-    width:128px;
-    border-collapse: collapse;
-}
-#quantity {
-    height: 32px;
-    width: 128px;
-    padding:0px
-}
+
 .info-container {
+    background-color: #efefef; 
     background-color: #efefef; 
     display: flex;
     flex-direction: row;
@@ -164,9 +151,6 @@
     margin-left:160px;
     margin-bottom:32px;
     margin-top:16px;
-    display: flex;
-    align-items: center;
-    gap:16px;
 }
 #inputfield-aligning {
     margin-left: 160px;
@@ -182,33 +166,16 @@
     align-items: center;
     gap: 8px;
 }
-input,
-button {
-    float: c;
-}
-#button-styling {
-    background-color: green;
-    color: white; /*anpassen mit colorpicker*/
-    width: 128px;
-    height:35px;
-    cursor: pointer;
-}
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
-button:hover {
-    cursor:pointer;
-    background-color:greenyellow;
-    color: grey;
+.IngridientAmount {
+    text-align:right;
+    width:100px;
 }
 table#customers {
     border-spacing: 0;
     margin:0 160px;
     width: auto;
 }
+table,tr {
 table,tr {
     border-radius: 10px;
 }
@@ -225,13 +192,13 @@ td {
     border: none;
 }
 .ws-table-all tr:nth-child(odd) td:first-child {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
     padding-left: 12px;
 }
 .ws-table-all tr:nth-child(odd) td:last-child {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     padding-right: 12px;
 }
 #creator-name {
@@ -245,12 +212,11 @@ td {
     width:100px;
     height:auto;
 }
-#leftalign {
+.leftalign {
     text-align: left;
+    padding:20px 0;
 }
-#leftalign {
-    text-align: left;
-}
+
 @keyframes zoom {
     from {
         transform: scale(0);

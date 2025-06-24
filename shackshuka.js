@@ -13,8 +13,17 @@ span.onclick = function() {
 modal.style.display = "none";
 }
 //calc funktion für Rezept//
-    function myFunction() {
-var x = document.getElementById("quantity").value;
-document.getElementById("amount").innerHTML = x;
-console.log(x);
+function calculate(event) {
+    event.preventDefault();
+    const portionen = parseFloat (document.getElementById("portionen").value)
+    document.querySelectorAll(".IngridientAmount").forEach(td => {
+        const basis = parseFloat(td.dataset.basis);
+        console.log(basis);
+        const berechnet = (basis * portionen).toFixed(2).replace(/\.00$/, "");
+        const einheit = td.dataset.info || "";
+        td.textContent = einheit ? `${berechnet} ${einheit}` : berechnet;
+        console.log(berechnet)
+    });
 }
+
+
