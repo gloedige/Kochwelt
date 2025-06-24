@@ -101,10 +101,13 @@
     width: 128px;
     padding:0px
 }
-#quantity {
-    height: 32px;
+#portionen {
     width: 128px;
-    padding:0px
+}
+#quantity {
+    height:auto;
+    width:128px;
+    border-collapse: collapse;
 }
 #portionen {
     width: 128px;
@@ -264,6 +267,7 @@ td {
     width:100px;
     padding-left:20px;
 }
+
 @keyframes zoom {
     from {
         transform: scale(0);
