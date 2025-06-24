@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
-    <link rel="icon" type="image/x-icon" href="/Kochwelt/img/logo_small.png">
+    <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet"href="main-style.css">
     <link rel="stylesheet"href="shackshuka.css">
@@ -17,7 +17,7 @@
     </header>
     <main>
         <section id="dish-presentation" class="margin">
-            <h2 id="text-aligning">Shackshuka</h2>
+            <h2 class="leftalign">Shackshuka</h2>
             <img id="my-Img" src="./img/shackshuka.jpg" alt="Shackshuka">
             <div id="myModal" class="modal">
             <span class="close">&times;</span>
@@ -34,36 +34,36 @@
         <div id="section-seperator">
         </div>
         <section id="ingredient-calculation">
-            <form id="inputfield-aligning" onsubmit="return false">
+            <form id="amount" onsubmit="calculate(event)">
                 Zutaten für 
-                <div id="button-input-connect">
-                <input type="number" id="quantity" min="1"max="50"required value="1"> 
-                <button onclick="myFunction()" id="button-styling"type="number">Portionen</button>
+                <div id="button" class="button-adjust">
+                <input type="number" class="ingredient-calculation-aligning" id="portionen" name="portionen" min="1"max="50"required value="1"> 
+                <button class="button"type="submit">Portionen</button>
                 </div>
             </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
-                    <td><p id="a"></p></td>
+                    <td class="IngridientAmount" data-basis="150" data-info="g"></p></td>
                     <td>Tomate(n), vollreife, evtl. aus der Dose</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-info="n.B."></td>
                     <td>Olivenöl</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="1,25" data-info=""></td>
                     <td>Frühlingszwiebel(n)</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="0,25" data-info=""></td>
                     <td>Knoblauchzehe(n), in Scheiben geschnitten</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="0,25" data-info="TL,gestr."></td>
                     <td>Kreuzkümmel</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="¼" data-info="TL"></td>
                     <td>Cayennepfeffer oder Chiliflocken</td>
                 </tr>
                 <tr>
@@ -71,11 +71,11 @@
                     <td>Salz und Pfeffer</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="1" data-info=""></td>
                     <td>Ei(er)</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="IngridientAmount" data-basis="0,75" data-info="EL"></td>
                     <td>Petersilie, glatte, frisch und/oder Koriandergrün</td>
                 </tr>
             </table>
@@ -91,7 +91,7 @@
                 Die 4 Eier gleichmäßig über der Tomatenmischung aufschlagen. Das Eiweiß mit einer Gabel leicht vermengen und 1–2 Minuten stocken lassen. Zum Schluss mit Petersilie und Koriander bestreuen.
                 Mit Weißbrot servieren – optional passt auch Hummus hervorragend dazu.
             </article>
-            <h3>Rezept erstellt von</h3>
+            <h3 class="leftalign">Rezept erstellt von</h3>
             <div id="aligning-picture">
             <img id="Avatar" src="./img/profile.png" alt="Avatar">
             <span id="creator-name">Felix </span>
