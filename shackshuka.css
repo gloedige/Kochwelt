@@ -122,7 +122,11 @@
     width:128px;
     border-collapse: collapse;
 }
-
+#quantity {
+    height: 32px;
+    width: 128px;
+    padding:0px
+}
 .info-container {
     background-color: #efefef; 
     display: flex;
@@ -166,8 +170,17 @@
 }
 #inputfield-aligning {
     margin-left: 160px;
+    margin-left: 160px;
     padding-bottom: 16px;
     padding-top: 16px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }
 table#customers {
     border-spacing: 0;
