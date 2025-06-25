@@ -1,0 +1,47 @@
+
+
+footer {
+    background-color: rgb(64, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.footer-left-side{
+    display: flex;
+    margin-left: 160px;
+}
+
+
+.footer-right-side {
+    margin-right: 160px;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+.footer-right-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.footer-icon {
+    height: 42px;
+    width: auto;
+    margin-left: 16px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    text-align: center
+
+}
+
+.food-image {
+    height: 264px;
+    width: 1000px;
+    object-fit: cover;
+}
