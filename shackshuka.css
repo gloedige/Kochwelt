@@ -147,6 +147,9 @@
     margin-left:160px;
     margin-bottom:32px;
     margin-top:16px;
+    display: flex;
+    align-items: center;
+    gap:16px;
 }
 #inputfield-aligning {
     margin-left: 160px;
@@ -217,13 +220,13 @@ td {
     border: none;
 }
 .ws-table-all tr:nth-child(odd) td:first-child {
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding-left: 12px;
 }
 .ws-table-all tr:nth-child(odd) td:last-child {
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     padding-right: 12px;
 }
 #creator-name {
@@ -240,6 +243,9 @@ td {
 .leftalign {
     text-align: left;
     padding:20px 0;
+}
+.rightalign {
+    text-align:right;
 }
 
 @keyframes zoom {
