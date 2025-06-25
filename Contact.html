@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
-    <link rel="icon" type="image/x-icon" href="/Kochwelt/img/logo_small.png">
+    <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet"href="main-style.css">
+    <link rel="stylesheet"href="Contact.css">
+    <script src="./Contact.js"></script>
 </head>
 <body>
         <header>
@@ -18,6 +20,21 @@
                 <a class="grey" href="./Impressum.html" target="_self">Impressum</a>
             </nav>
             <div id="separator_horizontal"></div>
-    </header>
+        </header>
+        <form class="formfield" onsubmit="sendMail(event)">
+        <h3 id="leftaligningcontact">Kontaktiere uns</h3>
+        <label class="grouping" for="Dein Name">
+        Dein Name:
+        <input class="input-textarea" type="text" name="name"required="name">
+        </label>
+        <label class="grouping" for="Deine E-Mail">
+        Deine E-Mail:
+        <input class="input-textarea" type="text" name="email"required="email">
+        </label>
+        <label class="grouping" for="Deine Nachricht">
+        Deine Nachricht
+        <textarea class="message-area" name="Message"></textarea>
+        </label>
+        <button class="input-submit" type="submit">Abschicken</button>
 </body>
 </html>
