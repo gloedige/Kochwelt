@@ -250,6 +250,9 @@ td {
     width:100px;
     padding-left:20px;
 }
+.rightalign {
+    text-align:right;
+}
 
 @keyframes zoom {
     from {
