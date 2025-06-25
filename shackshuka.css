@@ -280,6 +280,10 @@ td {
 #leftalign {
     text-align: left;
 }
+.rightalign {
+    text-align:right;
+}
+
 @keyframes zoom {
     from {
         transform: scale(0);
