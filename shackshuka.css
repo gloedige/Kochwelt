@@ -363,6 +363,10 @@ td {
     text-align:right;
 }
 
+.rightalign {
+    text-align:right;
+}
+
 @keyframes zoom {
     from {
         transform: scale(0);
