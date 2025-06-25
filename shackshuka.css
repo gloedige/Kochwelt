@@ -239,6 +239,9 @@ td {
 .picture-distance {
     margin-bottom:50px;
 }
+.rightalign {
+    text-align:right;
+}
 
 @keyframes zoom {
     from {
