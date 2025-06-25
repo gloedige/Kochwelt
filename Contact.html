@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kochwelt</title>
     <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
+    <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet"href="main-style.css">
+    <link rel="stylesheet"href="Contact.css">
+    <script src="./Contact.js"></script>
     <link rel="stylesheet"href="Contact.css">
     <link rel="stylesheet"href="footer.css">
     <script src="./Contact.js"></script>
@@ -22,40 +25,20 @@
             </nav>
             <div id="separator_horizontal"></div>
         </header>
-        <div class="form-wrapper">
-            <form class="formfield" onsubmit="sendMail(event)">
-            <h3 id="leftaligningcontact">Kontaktiere uns</h3>
-            <label class="grouping" for="Dein Name">
-            <span> Dein Name: </span>
-            <input class="input-textarea" type="text" name="name"required="text">
-            </label>
-            <label class="grouping" for="Deine E-Mail">
-            <span> Deine E-Mail: </span>
-            <input class="input-textarea" type="email" name="email"required="email">
-            </label>
-            <label class="grouping" for="Deine Nachricht">
-            <span> Deine Nachricht </span>
-            <textarea class="message-area" name="Message"></textarea>
-            </label>
-            <button class="input-submit" type="submit">Abschicken</button>
-            </form>
-        </div>
-        <footer>
-            <div class="footer-left-side">
-                <img class="footer-logo" src="./img/logo_white.png" alt="Logo-icon">
-            </div>
-
-            <div class="footer-right-side">
-                <div class="footer-right-top">
-                <a href="https://www.facebook.com/" target="_blank"> <img class="footer-icon" src="./img/facebook_white.png" alt="facebook-icon"> </a>
-                <a href="https://www.instagram.com/" target="_blank"> <img class="footer-icon" src="./img/instagram_white.png" alt="instagram-icon"> </a>
-                <a href="https://www.instagram.com/" target="_blank"> <img class="footer-icon" src="./img/twitter_white.png" alt="twitter-icon"> </a>
-                </div>
-
-                <div> 
-                    <a class="footer-link" href="Datenschutz.html"><p>Datenschutz</p> </a>
-                </div>
-            </div>
-        </footer>
+        <form class="formfield" onsubmit="sendMail(event)">
+        <h3 id="leftaligningcontact">Kontaktiere uns</h3>
+        <label class="grouping" for="Dein Name">
+        Dein Name:
+        <input class="input-textarea" type="text" name="name"required="name">
+        </label>
+        <label class="grouping" for="Deine E-Mail">
+        Deine E-Mail:
+        <input class="input-textarea" type="text" name="email"required="email">
+        </label>
+        <label class="grouping" for="Deine Nachricht">
+        Deine Nachricht
+        <textarea class="message-area" name="Message"></textarea>
+        </label>
+        <button class="input-submit" type="submit">Abschicken</button>
 </body>
 </html>
