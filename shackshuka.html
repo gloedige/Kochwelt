@@ -37,45 +37,45 @@
             <form id="amount" onsubmit="calculate(event)">
                 Zutaten für 
                 <div id="button" class="button-adjust">
-                <input type="number" class="ingredient-calculation-aligning" id="portionen" name="portionen" min="1"max="50"required value="1"> 
-                <button class="button"type="submit">Portionen</button>
+                <input type="number" class="ingredient-calculation-aligning" id="portionen" name="portionen" min="1"max="50"required value="4"> 
+                <button class="button"type="submit" onclick="myFunction()">Portionen</button>
                 </div>
             </form>
             <table class="ws-table-all"id="customers"> <!--hier Font für table einbinden-->
                 <tr>
-                    <td class="IngridientAmount" data-basis="150" data-info="g"></p></td>
+                    <td class="IngridientAmount">150 g</td>
                     <td>Tomate(n), vollreife, evtl. aus der Dose</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-info="n.B."></td>
+                    <td class="rightalign">n.B.</td>
                     <td>Olivenöl</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-basis="1,25" data-info=""></td>
+                    <td class="IngridientAmount">1 &frac12;</td>
                     <td>Frühlingszwiebel(n)</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-basis="0,25" data-info=""></td>
+                    <td class="IngridientAmount">1</td>
                     <td>Knoblauchzehe(n), in Scheiben geschnitten</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-basis="0,25" data-info="TL,gestr."></td>
+                    <td class="IngridientAmount">&frac14; ,gestr.</td>
                     <td>Kreuzkümmel</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-basis="¼" data-info="TL"></td>
+                    <td class="IngridientAmount">&frac14; Prise(n)</td>
                     <td>Cayennepfeffer oder Chiliflocken</td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="rightalign">Prise</td>
                     <td>Salz und Pfeffer</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-basis="1" data-info=""></td>
+                    <td class="IngridientAmount">1</td>
                     <td>Ei(er)</td>
                 </tr>
                 <tr>
-                    <td class="IngridientAmount" data-basis="0,75" data-info="EL"></td>
+                    <td class="IngridientAmount">&frac34;</td>
                     <td>Petersilie, glatte, frisch und/oder Koriandergrün</td>
                 </tr>
             </table>

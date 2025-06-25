@@ -12,18 +12,11 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
 modal.style.display = "none";
 }
-//calc funktion für Rezept//
-function calculate(event) {
+//recipe calc//
+function myFunction(){
     event.preventDefault();
-    const portionen = parseFloat (document.getElementById("portionen").value)
-    document.querySelectorAll(".IngridientAmount").forEach(td => {
-        const basis = parseFloat(td.dataset.basis);
-        console.log(basis);
-        const berechnet = (basis * portionen).toFixed(2).replace(/\.00$/, "");
-        const einheit = td.dataset.info || "";
-        td.textContent = einheit ? `${berechnet} ${einheit}` : berechnet;
-        console.log(berechnet)
-    });
+    var x = document.getElementById('portionen').valueAsNumber;
+    var cells = document.querySelectorAll('IngridientAmount')
+    console.log(td)
 }
-
 
