@@ -9,16 +9,41 @@
         
         factorInput.value = currentValue;
 
-        let varCalcQuantity = factorInput.value*quantityOfOne;
-        cell1.innerHTML = `${varCalcQuantity}g Pasta, lang und dünn`;
+        for (let i=0; i<amount.length; i++){
+            let row = table.rows[i];
+            // console.log("aktuelle Reihe ist: ", row);
+            let cell1 = row.cells[0];
+            // console.log("aktuelle Zelle ist: ", cell1);
+            let quantityOfOne = amount[i];
+            let varUnit = unit[i];
+            let varIncredient = incredient[i];
+            let varCalcQuantity = factorInput.value*quantityOfOne;
+            cell1.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
+        }
     }
     let table = document.getElementById('table-incredients');
-    let row = table.insertRow(0);
-    let cell1 = row.insertCell(0);
+    
+    const amount = [120, 50, 1, 20, 20, 10, 5];
+    const incredient = ["Pasta, lang und dünn",
+        "Pancetta, Guanciale",
+        "Ei(er)",
+        "Parmesan, frisch geriebgen",
+        "Pecorino romano, frisch gerieben",
+        "Olivenöl",
+        "Salz und Pfeffer"
+    ]
+    const unit = [" g "," g "," ", " g "," g "," ml "," g "]
 
-    let quantityOfOne = 120;
-    let varCalcQuantity = factorInput.value*quantityOfOne;
-    cell1.innerHTML = `${varCalcQuantity}g Pasta, lang und dünn`;
+    for (let i=0; i<amount.length; i++){
+        let row = table.insertRow(i);
+        let cell1 = row.insertCell(0);
+        let quantityOfOne = amount[i];
+        let varUnit = unit[i];
+        let varIncredient = incredient[i];
+        let varCalcQuantity = factorInput.value*quantityOfOne;
+        cell1.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
+    }
+    
 
     formPortion.addEventListener('submit', function(event){
         event.preventDefault();
