@@ -13,10 +13,4 @@ span.onclick = function() {
 modal.style.display = "none";
 }
 //recipe calc//
-function myFunction(){
-    event.preventDefault();
-    var x = document.getElementById('portionen').valueAsNumber;
-    var cells = document.querySelectorAll('IngridientAmount')
-    console.log(td)
-}
 
