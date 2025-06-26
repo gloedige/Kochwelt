@@ -1,4 +1,4 @@
-h1, h2{
+h1, h2, h3{
     text-align: left;
     margin-bottom: 32px;
 }
@@ -73,4 +73,19 @@ td {
 }
 .section-preparation{
     margin-top: 32px;
+}
+.section-content-owner{
+    margin-top: 32px;
+}
+.container-user{
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    width: 128px;
+    border-radius: 64px;
+    margin-right: 32px;
+}
+.p-user-name{
+    font-size: 32px;
 }
