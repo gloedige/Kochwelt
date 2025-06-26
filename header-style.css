@@ -6,9 +6,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-body {
-  margin: 0px;
-}
 .grey {
   color: #675e54;
 }
@@ -51,4 +48,37 @@ a:hover {
     0px 5px 5px rgb(0, 0, 0);
   width: 100%;
   opacity: 0.2;
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+  }
+}
+@media screen and (min-width: 750px){
+    .vertical {
+    background-image: url(./img/icons/bars-solid.svg);
+    width: 100px;
+  }
 }
