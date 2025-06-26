@@ -242,7 +242,8 @@ td {
 }
 .leftalign {
     text-align: left;
-    padding-top: 160px
+    padding:20px 0;
+    margin-top:80px;
 }
 .rightalign {
     text-align:right;
