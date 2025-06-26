@@ -242,17 +242,47 @@ td {
 }
 .leftalign {
     text-align: left;
-    padding:20px 0;
+    padding-top: 160px
 }
 .rightalign {
     text-align:right;
+    width:100px;
+    padding-left:20px;
 }
-
 @keyframes zoom {
     from {
         transform: scale(0);
     }
     to {
         transform: scale(1);
+    }
+}
+@media screen and (max-width: 700px){
+    #portionen {
+        width:68px;
+    }
+}
+@media screen and (max-width: 675px){
+    .info-container {
+        padding:0px 5px;
+    }
+    .button-aligning {
+        gap:0px;
+        min-width:260px;
+        width:auto;
+    }
+}
+@media screen and (max-width: 600px){
+    #portionen {
+        width:32px;
+    }
+}
+@media screen and (max-width: 575px){
+    .info-container {
+    gap:0px;
+    }
+    .button-aligning {
+    min-width:215px;
+    width:auto;
     }
 }
