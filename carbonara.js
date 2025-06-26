@@ -23,7 +23,7 @@
     }
     let table = document.getElementById('table-incredients');
     
-    const amount = [120, 50, 1, 20, 20, 10, 5];
+    const amount = [120, 50, 1, 20, 20, 5, 2];
     const incredient = ["Pasta, lang und dünn",
         "Pancetta, Guanciale",
         "Ei(er)",
