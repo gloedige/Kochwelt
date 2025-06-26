@@ -25,20 +25,23 @@
             </nav>
             <div id="separator_horizontal"></div>
         </header>
-        <form class="formfield" onsubmit="sendMail(event)">
-        <h3 id="leftaligningcontact">Kontaktiere uns</h3>
-        <label class="grouping" for="Dein Name">
-        Dein Name:
-        <input class="input-textarea" type="text" name="name"required="name">
-        </label>
-        <label class="grouping" for="Deine E-Mail">
-        Deine E-Mail:
-        <input class="input-textarea" type="text" name="email"required="email">
-        </label>
-        <label class="grouping" for="Deine Nachricht">
-        Deine Nachricht
-        <textarea class="message-area" name="Message"></textarea>
-        </label>
-        <button class="input-submit" type="submit">Abschicken</button>
+        <div class="form-wrapper">
+            <form class="formfield" onsubmit="sendMail(event)">
+            <h3 id="leftaligningcontact">Kontaktiere uns</h3>
+            <label class="grouping" for="Dein Name">
+            <span> Dein Name: </span>
+            <input class="input-textarea" type="text" name="name"required="text">
+            </label>
+            <label class="grouping" for="Deine E-Mail">
+            <span> Deine E-Mail: </span>
+            <input class="input-textarea" type="email" name="email"required="email">
+            </label>
+            <label class="grouping" for="Deine Nachricht">
+            <span> Deine Nachricht </span>
+            <textarea class="message-area" name="Message"></textarea>
+            </label>
+            <button class="input-submit" type="submit">Abschicken</button>
+            </form>
+        </div>
 </body>
 </html>
