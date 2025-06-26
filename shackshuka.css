@@ -247,8 +247,9 @@ td {
 }
 .rightalign {
     text-align:right;
+    width:100px;
+    padding-left:20px;
 }
-
 @keyframes zoom {
     from {
         transform: scale(0);
