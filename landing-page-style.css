@@ -15,7 +15,7 @@
     margin-left: 32px;
 }
 .croissants-text{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .reciepe-overview{
     display: flex;
@@ -54,4 +54,17 @@
 .further-topics-text{
     margin-top:32px;
     flex:1;
+}
+
+@media(max-width: 1200px){
+    .section-croissants{
+        flex-direction: column;
+        padding-right: clamp(24px, 10vw, 160px);
+        padding-left: clamp(24px, 10vw, 160px);
+        margin-top: clamp(24px, 10vw, 120px);
+    }
+    .croissant-img{
+        object-fit: cover;
+        margin-bottom: 32px;
+    }
 }
