@@ -385,11 +385,8 @@ a:hover {
 @media screen and (max-width: 775px){
     nav.distance.horizontal {
     display: none;
-  }
-}
-@media screen and (min-width: 750px){
-    .vertical {
-    background-image: url(./img/icons/bars-solid.svg);
-    width: 100px;
+    }
+    .burgermenu {
+    display: unset;
   }
 }
