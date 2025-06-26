@@ -37,6 +37,16 @@ a:hover {
   display: flex;
   align-items: flex-end;
 }
+.burgermenu {
+  background-image: url(/img/icons/bars-solid.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height:auto;
+  display: contents;
+  display: none;
+  margin-top:80px;
+  margin-right:240px;
+}
 a:hover {
   text-decoration: underline;
   color: green;
@@ -74,11 +84,8 @@ a:hover {
 @media screen and (max-width: 775px){
     nav.distance.horizontal {
     display: none;
-  }
-}
-@media screen and (min-width: 750px){
-    .vertical {
-    background-image: url(./img/icons/bars-solid.svg);
-    width: 100px;
+    }
+    .burgermenu {
+    display: unset;
   }
 }
