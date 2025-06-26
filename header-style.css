@@ -90,3 +90,66 @@ a:hover {
     display: unset;
   }
 }
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+  }
+}
+@media screen and (min-width: 750px){
+    .vertical {
+    background-image: url(./img/icons/bars-solid.svg);
+    width: 100px;
+  }
+}
