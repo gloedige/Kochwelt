@@ -11,6 +11,10 @@ html {
 h2 {
     font-size: 32px;
 }
+.h3-element {
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
 
 .icon-image {
     width: 14px;
@@ -23,6 +27,11 @@ h2 {
     padding: 5px 16px;
     display: flex;
     align-items: center;
+}
+
+.p-text{
+    font-size: 10px;
+    margin: 0px;
 }
 
 .information{
@@ -50,5 +59,21 @@ h2 {
     height: 40px;
     color: #fff;
 }
+
+.profile-img {
+    width: 72px;
+    border-radius: 35px;
+}
+
+.profile-name{
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    margin-right: 15px;
+}
+
+
 
 
