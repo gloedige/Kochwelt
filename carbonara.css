@@ -6,6 +6,9 @@ h1, h2, h3{
     margin: 0px 160px;
     width: 1120px;
 }
+.section-welcome{
+    margin-top: 80px;
+}
 .carbonara-img{
     height: 240px;
     width: 1120px;
@@ -76,6 +79,7 @@ td {
 }
 .section-content-owner{
     margin-top: 32px;
+    margin-bottom: 80px;
 }
 .container-user{
     display: flex;
