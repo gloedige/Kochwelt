@@ -212,12 +212,13 @@ td {
 }
 .leftalign {
     text-align: left;
-    padding:20px 0;
+    padding-top: 160px
 }
 .rightalign {
     text-align:right;
+    width:100px;
+    padding-left:20px;
 }
-
 @keyframes zoom {
     from {
         transform: scale(0);
