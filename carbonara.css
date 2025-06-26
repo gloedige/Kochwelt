@@ -1,4 +1,4 @@
-h1{
+h1, h2{
     text-align: left;
     margin-bottom: 32px;
 }
@@ -32,6 +32,7 @@ h1{
 }
 .section-incredients-overview{
     margin-top: 60px;
+    overflow-x: auto;
 }
 .divider{
     height: 1px;
@@ -47,4 +48,29 @@ input{
     height: 36px;
     margin-left: 8px;
     width: 128px;
+}
+table#customers {
+    border-spacing: 0;
+    margin:0 160px;
+    width: auto;
+}
+table,td {
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    margin-top: 16px;
+}
+td {
+    padding:10px 40px;
+    border-right: none;
+}
+.table-style tr:nth-child(even) {
+    background-color:#fff;
+    border-radius: 12px;
+}
+.table-style tr:nth-child(odd) {
+    background-color:#f2f2f2;
+    border-radius: 12px;   
+}
+.section-manual{
+    margin-top: 32px;
 }
