@@ -146,11 +146,27 @@
         }
     }
 
+    @media(max-width:1000px){
+        .section-further-topics{
+            padding-right: clamp(24px, 10vw, 160px);
+            padding-left: clamp(24px, 10vw, 160px);
+        }
+        .container-further-topics-info{
+            flex-direction: column-reverse;
+        }
+        .further-topics-img{
+            object-fit: cover;
+            width: unset;
+            margin-left: 0px;
+        }
+    }
+
     @media(max-width: 600px){
         .single-recipe-img{
             width: 200px;
             height: 200px;
         }    
     }
+
 
 }
