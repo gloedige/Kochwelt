@@ -23,6 +23,9 @@
     padding: 0px 160px;
     justify-content: space-between;
 }
+.single-recipe{
+
+}
 .single-recipe-img{
     width: 250px;
     height: 250px;
@@ -114,4 +117,20 @@
         }    
     }
 
+    .section-proposal-overview{
+        margin-top: 50px;
+    }
+    .recipe-overview{
+        flex-direction: column;
+        align-items: center;
+    }
+    .single-recipe{
+        margin-bottom: 16px;
+    }
+    @media(max-width: 600px){
+        .single-recipe-img{
+            width: 200px;
+            height: 200px;
+        }    
+    }
 }
