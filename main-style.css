@@ -62,6 +62,7 @@ span{
 @font-face {
     font-family: raleway;
     src: url(./fonts/Raleway-VariableFont_wght.ttf);
+<<<<<<< HEAD
     font-display: fallback;
 }
 @media screen and (max-width: 700px){
@@ -95,6 +96,8 @@ span{
     p{
         font-size: 16px;
     }
+=======
+>>>>>>> 6bedc29 (headline responsive for width less than 600px)
 }
 @media(max-width:600px){
     h1{
@@ -106,6 +109,7 @@ span{
     p{
         font-size: 16px;
     }
+<<<<<<< HEAD
 }
 @media(max-width:700px){
     h1{
@@ -150,4 +154,6 @@ span{
     p{
         font-size: 16px;
     }
+=======
+>>>>>>> 6bedc29 (headline responsive for width less than 600px)
 }
