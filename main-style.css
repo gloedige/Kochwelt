@@ -63,6 +63,7 @@ span{
     font-family: raleway;
     src: url(./fonts/Raleway-VariableFont_wght.ttf);
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-display: fallback;
 }
 @media screen and (max-width: 700px){
@@ -200,6 +201,8 @@ span{
     p{
         font-size: 16px;
     }
+=======
+>>>>>>> bd70bbb (headline responsive for width less than 600px)
 }
 @media(max-width:600px){
     h1{
