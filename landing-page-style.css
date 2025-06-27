@@ -18,15 +18,14 @@
     margin-bottom: 60px;
 }
 .recipe-overview{
-.recipe-overview{
     display: flex;
     padding: 0px 160px;
     justify-content: space-between;
 }
-.single-reciepe{
+.single-recipe{
 
 }
-.single-reciepe-img{
+.single-recipe-img{
     width: 250px;
     height: 250px;
     object-fit: cover;
