@@ -157,3 +157,14 @@ span{
 =======
 >>>>>>> 6bedc29 (headline responsive for width less than 600px)
 }
+@media(max-width:600px){
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
