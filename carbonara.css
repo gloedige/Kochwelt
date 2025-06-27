@@ -2,12 +2,13 @@ h1, h2, h3{
     text-align: left;
     margin-bottom: 32px;
 }
-.margin-body{
+/* .margin-body{
     margin: 0px 160px;
     width: 1120px;
-}
+} */
 .section-welcome{
     margin-top: 80px;
+    margin: 0px 160px;
 }
 .carbonara-img{
     height: 240px;
@@ -27,6 +28,12 @@ h1, h2, h3{
 .section-recipe-info{
     display: flex;
     gap: 32px;
+    margin: 0px 160px;
+    margin-top: 24px;
+}
+.section-preparation-info{
+    display: flex;
+    gap: 32px;
     margin-top: 24px;
 }
 .icon-img{
@@ -34,8 +41,9 @@ h1, h2, h3{
     margin-right: 8px;
 }
 .section-incredients-overview{
-    margin-top: 60px;
     overflow-x: auto;
+    margin: 0px 160px;
+    margin-top: 60px;
 }
 .divider{
     height: 1px;
@@ -75,9 +83,11 @@ td {
     border-radius: 12px;   
 }
 .section-preparation{
+    margin: 0px 160px;
     margin-top: 32px;
 }
 .section-content-owner{
+    margin: 0px 160px;
     margin-top: 32px;
     margin-bottom: 80px;
 }
