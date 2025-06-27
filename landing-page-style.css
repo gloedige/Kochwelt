@@ -91,6 +91,7 @@
             width: 400px;
             height: 400px;
     }
+<<<<<<< HEAD
     @media(max-width:1000px){
         .section-further-topics{
             padding-right: clamp(24px, 10vw, 160px);
@@ -109,6 +110,8 @@
         }
     }
 
+=======
+>>>>>>> 3e3047e (update size of single-recipe-img in responsive mode)
     @media(max-width: 600px){
         .single-recipe-img{
             width: 200px;
