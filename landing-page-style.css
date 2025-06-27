@@ -126,6 +126,10 @@
     .single-recipe{
         margin-bottom: 16px;
     }
+    .single-recipe-img{
+            width: 400px;
+            height: 400px;
+    }
     @media(max-width: 600px){
         .single-recipe-img{
             width: 200px;
