@@ -39,7 +39,7 @@
 .section-further-topics{
     padding: 0px 160px;
     margin-top: 60px;
-    margin-bottom: 160px;
+    margin-bottom: clamp(24px, 10vw, 160px);
 }
 .container-further-topics-info{
     display: flex;
@@ -81,10 +81,26 @@
             width: 400px;
             height: 400px;
     }
+    @media(max-width:1000px){
+        .section-further-topics{
+            padding-right: clamp(24px, 10vw, 160px);
+            padding-left: clamp(24px, 10vw, 160px);
+        }
+        .container-further-topics-info{
+            flex-direction: column-reverse;
+        }
+        .further-topics-img{
+            object-fit: cover;
+            width: unset;
+            margin-left: 0px;
+        }
+    }
+
     @media(max-width: 600px){
         .single-recipe-img{
             width: 200px;
             height: 200px;
         }    
     }
+
 }
