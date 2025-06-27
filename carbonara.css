@@ -1,0 +1,105 @@
+h1, h2, h3{
+    text-align: left;
+    margin-bottom: 32px;
+}
+.section-welcome{
+    margin: 0px 160px;
+    margin-top: 80px;
+}
+.container-carbonara-img{
+    display: flex;
+}
+.carbonara-img{
+    height: 240px;
+    width: 100vw;
+    object-fit: cover;
+    border-radius: 5px;
+    border: none;
+}
+.button-info{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    padding: 0px 16px;
+}
+.section-recipe-info{
+    display: flex;
+    gap: 32px;
+    margin: 0px 160px;
+    margin-top: 24px;
+}
+.section-preparation-info{
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.icon-img{
+    height: 16px;
+    margin-right: 8px;
+}
+.section-incredients-overview{
+    overflow-x: auto;
+    margin: 0px 160px;
+    margin-top: 60px;
+}
+.divider{
+    height: 1px;
+    width: 100vw;
+    background-color: rgb(239, 239, 239);
+    margin-bottom: 8px;
+}
+.scaler{
+    display: flex;
+    align-items: center;
+}
+input{
+    height: 36px;
+    margin-left: 8px;
+    width: 128px;
+}
+table#customers {
+    border-spacing: 0;
+    margin:0 160px;
+    width: auto;
+}
+table,td {
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    margin-top: 16px;
+}
+td {
+    padding:10px 40px;
+    border-right: none;
+}
+.table-style tr:nth-child(even) {
+    background-color:#fff;
+    border-radius: 12px;
+}
+.table-style tr:nth-child(odd) {
+    background-color:#f2f2f2;
+    border-radius: 12px;   
+}
+.section-preparation{
+    margin: 0px 160px;
+    margin-top: 32px;
+}
+.section-content-owner{
+    margin: 0px 160px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+.container-user{
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    width: 128px;
+    border-radius: 64px;
+    margin-right: 32px;
+}
+.p-user-name{
+    font-size: 32px;
+}
