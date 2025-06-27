@@ -2,17 +2,16 @@ h1, h2, h3{
     text-align: left;
     margin-bottom: 32px;
 }
-/* .margin-body{
-    margin: 0px 160px;
-    width: 1120px;
-} */
 .section-welcome{
-    margin-top: 80px;
     margin: 0px 160px;
+    margin-top: 80px;
+}
+.container-carbonara-img{
+    display: flex;
 }
 .carbonara-img{
     height: 240px;
-    width: 1120px;
+    width: 100vw;
     object-fit: cover;
     border-radius: 5px;
     border: none;
@@ -47,7 +46,7 @@ h1, h2, h3{
 }
 .divider{
     height: 1px;
-    width: 1120px;
+    width: 100vw;
     background-color: rgb(239, 239, 239);
     margin-bottom: 8px;
 }
