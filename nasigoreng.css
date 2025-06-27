@@ -6,16 +6,20 @@ html {
     height: 14rem;
     object-fit: cover;
     margin-bottom: 24px;
+    border-radius: 16px;
 }
 
-h2 {
+h4 {
     font-size: 32px;
-}
-.h3-element {
-    padding-bottom: 15px;
-    padding-top: 40px;
+    padding-top: 32px;
+    padding-bottom: 16px;
 }
 
+h5 {
+    font-size: 24px;
+    padding-bottom: 16px;
+    padding-top: 24px;
+}
 .icon-image {
     width: 14px;
     margin-right: 5px;
@@ -72,6 +76,21 @@ h2 {
 
 .profile-img {
     margin-right: 15px;
+}
+
+.grey-field {
+    background-color: rgba(241, 237, 237, 0.9);
+    border-radius: 14px;
+    background: rgba(241, 237, 237, 0.9);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
 }
 
 
