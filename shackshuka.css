@@ -74,6 +74,8 @@
     width: auto;
     padding-top:64px;
     margin-bottom:8px;
+    padding-top:64px;
+    margin-bottom:8px;
 }
 #aligning-picture {
     display: flex;
@@ -89,6 +91,7 @@
     align-items: center;
     width: 300px;
     padding-top: 20px;
+    padding-bottom: 30px;
     padding-bottom: 30px;
     gap:32px;
     color:black;
@@ -108,9 +111,28 @@
     height:auto;
     width:128px;
     border-collapse: collapse;
+    color:black;
+}
+.button-adjust {
+    display: flex;
+}
+#quantity {
+    height: 32px;
+    width: 128px;
+    padding:0px
+}
+#portionen {
+    width: 128px;
+}
+#quantity {
+    height:auto;
+    width:128px;
+    border-collapse: collapse;
 }
 
+
 .info-container {
+    background-color: #efefef; 
     background-color: #efefef; 
     display: flex;
     flex-direction: row;
@@ -138,6 +160,18 @@
 #ingredient-calculation {
     display: flex;
     flex-direction: column;
+}
+.ingridient-calculation-aligning {
+    display: flex;
+    flex-direction: column;
+}
+#amount {
+    margin-left:160px;
+    margin-bottom:32px;
+    margin-top:16px;
+    display: flex;
+    align-items: center;
+    gap:16px;
 }
 .ingridient-calculation-aligning {
     display: flex;
@@ -205,6 +239,7 @@ table#customers {
     width: auto;
 }
 table,tr {
+table,tr {
     border-radius: 10px;
 }
 td {
@@ -223,7 +258,23 @@ td {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding-left: 12px;
+.ws-table-all {
+    border-collapse: separate;
+    border-spacing: 0 6px;
 }
+.ws-table-all tr:nth-child(odd) td {
+    background-color: #efefef;
+    border: none;
+}
+.ws-table-all tr:nth-child(odd) td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 12px;
+}
+.ws-table-all tr:nth-child(odd) td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 12px;
 .ws-table-all tr:nth-child(odd) td:last-child {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -251,6 +302,42 @@ td {
     padding-left:20px;
 }
 @keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@media screen and (max-width: 700px){
+    #portionen {
+        width:68px;
+    }
+}
+@media screen and (max-width: 675px){
+    .info-container {
+        padding:0px 5px;
+    }
+    .button-aligning {
+        gap:0px;
+        min-width:260px;
+        width:auto;
+    }
+}
+@media screen and (max-width: 600px){
+    #portionen {
+        width:32px;
+    }
+}
+@media screen and (max-width: 575px){
+    .info-container {
+    gap:0px;
+    }
+    .button-aligning {
+    min-width:215px;
+    width:auto;
+    }
+}
     from {
         transform: scale(0);
     }
