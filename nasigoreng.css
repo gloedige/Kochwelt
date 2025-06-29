@@ -77,14 +77,10 @@ h3 {
     margin-right: 15px;
 }
 
-.grey-field {
-    background-color: rgba(241, 237, 237, 0.9);
-    border-radius: 14px;
-    background: rgba(241, 237, 237, 0.9);
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
+table{
+    border-collapse: separate;
 }
+
 
 td {
     padding-top: 16px;
