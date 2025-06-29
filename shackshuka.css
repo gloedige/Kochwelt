@@ -192,12 +192,6 @@ button {
     height:35px;
     cursor: pointer;
 }
-#button-input-connect {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: start;
-    align-items: start;
-}
 button:hover {
     cursor:pointer;
     background-color:greenyellow;
@@ -260,20 +254,6 @@ td {
 .picture-distance {
     margin-bottom:50px;
 }
-.rightalign {
-    text-align:right;
-    width: 10%;
-}
-.picture-distance {
-    margin-bottom:50px;
-}
-.rightalign {
-    text-align:right;
-}
-.rightalign {
-    text-align:right;
-}
-
 @keyframes zoom {
     from {
         transform: scale(0);
