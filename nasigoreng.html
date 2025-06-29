@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nasi Goreng</title>
     <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet" href="nasigoreng.css">
     <link rel="stylesheet" href="nasigoreng.js">
 </head>
 <body>
+     <header>
+        <a href="./index.html"><div id="logo"role="img" aria-label="Kochwelt Logo"></div></a>
+            <nav class="distance horizontal">
+                <a class="grey" href="./index.html"target="_self">Start</a>
+                <a class="grey" href=""target="_self">Rezept des Tages</a>
+                <a class="grey" href="./Contact.html"target="_self">Kontakt</a>
+                <a class="grey" href="./Impressum.html" target="_self">Impressum</a>
+            </nav>
+        <div id="separator_horizontal"></div>
+    </header>
+
     <section>
             <h2>Nasi Goreng</h2>
             <img src="./img/nasigoreng.jpg" alt="Nasi Goreng" class="food-image">
@@ -30,8 +42,8 @@
     <div> 
         <div class="portion">
             <p>Zutaten für</p>
-            <input Class="input-portion" type="button" min="1" max="8" value="4" placeholder="How many Person?">
-            <button class="button-portion" type="button" >Portionen</button>
+            <input Class="input-portion" type="number" min="1" max="8" placeholder="How many Person?">
+            <button class="button-portion" type="button" onclick="calculatePortion" >Portionen</button>
         </div>
 
 
@@ -41,37 +53,37 @@
         <td data-menge="75" data-einheit="g" data-zutat="Langkornreis">75g Lankornreis</td>
     </tr>
     <tr>
-        <td data-menge="1" data-einheit="Prise" data-zutat="Salz">1 Prise Salz</td>
+        <td class="td-white" data-menge="1" data-einheit="Prise" data-zutat="Salz">1 Prise Salz</td>
     </tr>
-    <tr class="grey-field">
+    <tr>
         <td data-menge="3/4" data-einheit="EL" data-zutat="Erdnussöl">3/4 EL Erdnussöl</td>
     </tr>
     <tr>
-        <td data-menge="1/4" data-einheit="" data-zutat="Zwiebel">1/4 Zwiebel</td>
+        <td class="td-white" data-menge="1/4" data-einheit="" data-zutat="Zwiebel">1/4 Zwiebel</td>
     </tr>
     <tr>
         <td data-menge="3/4" data-einheit="" data-zutat="Langkornreis">3/4 Knoblauchzehe</td>
     </tr>
     <tr>
-        <td data-menge="1/4" data-einheit="" data-zutat="Chilisote">1/4 Chilisote</td>
+        <td class="td-white" data-menge="1/4" data-einheit="" data-zutat="Chilisote">1/4 Chilisote</td>
     </tr>
-    <tr class="grey-field">
+    <tr>
         <td data-menge="7" data-einheit="g" data-zutat="Ingwer">7g Ingwer</td>
     </tr>
     <tr>
-        <td data-menge="50" data-einheit="g" data-zutat="Möhre">50g Möhren</td>
+        <td class="td-white" data-menge="50" data-einheit="g" data-zutat="Möhre">50g Möhren</td>
     </tr>
-    <tr class="grey-field">
+    <tr>
         <td data-menge="3/4" data-einheit="" data-zutat="Lauchzwiebel">3/4 Lauchzwiebel</td>
     </tr>
     <tr>
-        <td data-menge="50" data-einheit="" data-zutat="Spargelbohnen oder Prinzess-Bohnen">50 Spargelbohnen oder Prinzess-Bohnen</td>
+        <td class="td-white" data-menge="50" data-einheit="" data-zutat="Spargelbohnen oder Prinzess-Bohnen">50 Spargelbohnen oder Prinzess-Bohnen</td>
     </tr>
     <tr>
         <td data-menge="1/2" data-einheit="" data-zutat="Hähnchenbrustfilet">1/2 Hähnchenbrustfilet</td>
     </tr>
     <tr>
-        <td data-menge="1" data-einheit="EL" data-zutat="Sojasauce">1 EL Sojasauce</td>
+        <td class="td-white" data-menge="1" data-einheit="EL" data-zutat="Sojasauce">1 EL Sojasauce</td>
     </tr>
     <tr>
         <td data-menge="1/2" data-einheit="EL" data-zutat="Ketchup Manis">1/2 EL Ketchup Manis</td>
