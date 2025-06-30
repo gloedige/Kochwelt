@@ -109,27 +109,28 @@ a:
   .distance {
     gap: 16px;
   }
-    body {
+  body {
     margin: 0px;
     font-family: raleway;
-    font-size: 12px;
+    font-size: 14px;
   }
-}
-@media screen and (max-width: 900px){
-    #logo {
-    width:200px;
+  #logo {
+    width: clamp(10%, 40%, 50%);
+    margin-left: clamp(10px, 50px, 160px);
+  } 
+  nav.distance.horizontal {
+    width: clamp(20%, 35%, 50%);
+    margin-right: clamp(10px, 100px, 160px);
   }
 }
 @media screen and (max-width: 800px){
-    .distance {
-    gap: 8px;
-  }
-}
-@media screen and (max-width: 775px){
-    nav.distance.horizontal {
+  nav.distance.horizontal {
     display: none;
     }
-    .burgermenu {
-    display: unset;
+  .burgermenu {
+    display: flex;
+    }
+  .dropdown {
+    margin-right: clamp(10px, 5px, 30px);
   }
 }
