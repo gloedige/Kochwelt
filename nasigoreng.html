@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="main-style.css">
     <link rel="stylesheet"href="header-style.css">
     <link rel="stylesheet" href="nasigoreng.css">
-    <link rel="stylesheet" href="nasigoreng.js">
+
 </head>
 <body>
      <header>
@@ -42,8 +42,10 @@
     <div> 
         <div class="portion">
             <p>Zutaten für</p>
-            <input Class="input-portion" type="number" min="1" max="8" placeholder="How many Person?">
-            <button class="button-portion" type="button" onclick="calculatePortion" >Portionen</button>
+            <input Class="input-portion" type="number" id="input-portion" min="1" max="8" value="4" placeholder="How many Person?">
+            <button class="button-portion" type="button" onclick="aktualisiereZutaten()" >Portionen</button>
+            </select>
+            
         </div>
 
 
@@ -126,10 +128,9 @@
         Tuncay 
     </div>
 </div>
-
 </section>
 
 
-    
 </body>
+<script src="./nasigoreng.js"></script>
 </html>
