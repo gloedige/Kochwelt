@@ -39,19 +39,6 @@ a:hover {
   display: flex;
   align-items: flex-end;
 }
-.burgermenu {
-  background-image: url(/img/icons/bars-solid.svg);
-  background-repeat: no-repeat;
-  width: 24px;
-  height:auto;
-  display: none;
-  margin-top:80px;
-  margin-right:240px;
-}
-a:hover {
-  text-decoration: underline;
-  color: green;
-}
 #separator_horizontal {
   border-bottom: 0.5px solid rgb(0, 0, 0);
   box-shadow: 0px 0.5px 0.5px rgb(0, 0, 0), 0px 1px 1px rgb(0, 0, 0),
@@ -126,16 +113,23 @@ a:
     font-family: raleway;
     font-size: 14px;
   }
+  #logo {
+    width: clamp(10%, 40%, 50%);
+    margin-left: clamp(10px, 50px, 160px);
+  } 
   nav.distance.horizontal {
-    width: min(150px,auto);
-    font-size: clamp(0.625rem, 0.5263rem + 0.5263vw, 1rem);
-    margin-right: clamp(40px, 10vw, 160px);
-    }
-  .burgermenu {
+    width: clamp(20%, 35%, 50%);
+    margin-right: clamp(10px, 100px, 160px);
+  }
+}
+@media screen and (max-width: 800px){
+  nav.distance.horizontal {
     display: none;
     }
-  #logo {
-    width: clamp(100px, 10vw, 200px);
-    padding-left: clamp(24px, 10vw, 160px);
+  .burgermenu {
+    display: flex;
+    }
+  .dropdown {
+    margin-right: clamp(10px, 1vw, 30px);
   }
 }
