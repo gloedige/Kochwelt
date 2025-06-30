@@ -75,6 +75,16 @@ footer {
 }
 
 @media(max-width: 550px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-right-side {
+        margin-right: 20px;
+    }
 
-    
+    .footer-left-side{
+        margin-left: 20px;
+    }
 }
