@@ -1,11 +1,10 @@
 header {
-    height: 112px;
-    width: 1440px;
-    margin: 0px;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  height: 112px;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .grey {
   color: #675e54;
@@ -127,25 +126,16 @@ a:
     font-family: raleway;
     font-size: 14px;
   }
-  #logo {
-    width: clamp(10%, 40%, 50%);
-    margin-left: clamp(10px, 50px, 160px);
-  } 
   nav.distance.horizontal {
-    width: clamp(20%, 35%, 50%);
-    margin-right: clamp(10px, 100px, 160px);
-  }
-    .distance {
-    gap: 8px;
-}
-@media screen and (max-width: 800px){
-  nav.distance.horizontal {
-    display: none;
+    width: min(150px,auto);
+    font-size: clamp(0.625rem, 0.5263rem + 0.5263vw, 1rem);
+    margin-right: clamp(40px, 10vw, 160px);
     }
   .burgermenu {
-    display: flex;
+    display: none;
     }
-  .dropdown {
-    margin-right: clamp(10px, 5px, 30px);
+  #logo {
+    width: clamp(100px, 10vw, 200px);
+    padding-left: clamp(24px, 10vw, 160px);
   }
 }
