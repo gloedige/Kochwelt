@@ -44,17 +44,6 @@ a:hover {
   background-repeat: no-repeat;
   width: 24px;
   height:auto;
-  display: contents;
-  display: none;
-  margin-top:80px;
-  margin-right:240px;
-}
-.burgermenu {
-  background-image: url(/img/icons/bars-solid.svg);
-  background-repeat: no-repeat;
-  width: 24px;
-  height:auto;
-  display: contents;
   display: none;
   margin-top:80px;
   margin-right:240px;
