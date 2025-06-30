@@ -3,6 +3,7 @@ header {
   width: 100%;
   margin: 0px;
   display: flex;
+  width: flex(1);
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -674,21 +675,612 @@ a:hover {
 @media screen and (max-width: 900px){
     #logo {
     width:200px;
-    padding-left: clamp(24px, 10vw, 160px);
   }
-    .distance {
-    gap: 8px;
 }
-@media screen and (max-width: 800px){ 
+@media screen and (max-width: 800px){
     .distance {
     gap: 8px;
   }
-} 
-@media screen and (max-width: 775px){ 
+}
+@media screen and (max-width: 775px){
     nav.distance.horizontal {
     display: none;
     }
     .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
     display: none;
     }
-} 
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+    body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px){
+    #logo {
+    width:200px;
+  }
+}
+@media screen and (max-width: 800px){
+    .distance {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 775px){
+    nav.distance.horizontal {
+    display: none;
+    }
+    .burgermenu {
+    display: unset;
+  }
+}
+
+/* Media Query */
+@media screen and (max-width: 1050px){
+  .distance {
+    gap: 16px;
+  }
+  body {
+    margin: 0px;
+    font-family: raleway;
+    font-size: 12px;
+  }
+  nav.distance.horizontal {
+    width: min(150px,auto);
+    font-size: clamp(0.625rem, 0.5263rem + 0.5263vw, 1rem);
+    margin-right: clamp(40px, 10vw, 160px);
+    }
+  .burgermenu {
+    display: none;
+    }
+  #logo {
+    width: clamp(100px, 10vw, 200px);
+    padding-left: clamp(24px, 10vw, 160px);
+  }
+}
