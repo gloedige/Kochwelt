@@ -50,6 +50,9 @@ h3{
 p{
     font-size: 20px;
 }
+span{
+    font-size: 20px;
+}
 @font-face {
     font-family: raleway;
     src: url(./fonts/Raleway-VariableFont_wght.ttf);
