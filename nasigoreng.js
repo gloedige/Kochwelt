@@ -43,7 +43,7 @@ function aktualisiereZutaten() {
         const text = isNaN(neueMenge)
             ? `${mengeRaw} ${einheit} ${zutat}` // Falls Umrechnung fehlschlägt
             : `${zahlZuBruchString(neueMenge)} ${einheit} ${zutat}`;
-
+        
         td.innerText = text.trim();
     });
 }
