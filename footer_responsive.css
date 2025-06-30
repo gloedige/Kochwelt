@@ -37,6 +37,27 @@ footer {
     text-decoration: none;
     color: white;
     text-align: center
+}
 
+@media(max-width: 900px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-right-top {
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .footer-icon {
+        padding-right: 32px;
+    }
 }
 
