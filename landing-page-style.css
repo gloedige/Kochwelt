@@ -64,6 +64,15 @@
         object-fit: cover;
         margin-bottom: 32px;
     }
+    .croissants-info{
+        margin-left: 0px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .croissants-text{
+        text-align: justify;
+    }
     .section-proposal-overview{
         margin-top: 50px;
     }
@@ -90,6 +99,9 @@
             object-fit: cover;
             width: unset;
             margin-left: 0px;
+        }
+        .further-topics-text{
+            text-align: justify;
         }
     }
 
