@@ -75,6 +75,7 @@
     .croissants-text{
         text-align: justify;
     }
+<<<<<<< HEAD
     .section-proposal-overview{
         margin-top: 50px;
     }
@@ -117,6 +118,8 @@
         }    
     }
 
+=======
+>>>>>>> 8ae4df2 (adjust content in container croissants-info to center less than 1200px width)
     .section-proposal-overview{
         margin-top: 50px;
     }
@@ -147,6 +150,7 @@
         .further-topics-text{
             text-align: justify;
         }
+<<<<<<< HEAD
     }
 
     @media(max-width:1000px){
@@ -177,6 +181,8 @@
             width: unset;
             margin-left: 0px;
         }
+=======
+>>>>>>> 8ae4df2 (adjust content in container croissants-info to center less than 1200px width)
     }
 
     @media(max-width: 600px){
