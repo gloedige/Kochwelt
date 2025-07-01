@@ -1,5 +1,6 @@
 html {
-    padding: 0 160px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .food-image {
     width: 100%;
@@ -75,7 +76,6 @@ h3 {
 
 .profile-img {
     margin-right: 15px;
-    padding-bottom: 48px;
 }
 
 table{
@@ -100,6 +100,9 @@ table {
     background-color: #fff;
 }
 
+.button-portion:hover{
+    background-color:rgb(0, 160, 0);
+}
 
 
 
