@@ -59,13 +59,8 @@ footer {
     }
 }
 
-@media(750px){
-    .footer-right-side {
-        margin-right: 70px;
-    }
-}
 
-@media(max-width: 675px) {
+@media(max-width: 750px) {
     .footer-logo {
         display: none;
     }
@@ -73,7 +68,7 @@ footer {
     .footer-icon {
         height: 24px;
     }
-    }
+
 
     .footer-left-side{
         margin-left: 70px;
@@ -90,9 +85,20 @@ footer {
     }
 }
 
-@media (min-width: 675px) {
+@media (min-width: 750px) {
     .footer-logo-small {
         display: none;
         height: 100px;
+    }
+
+        .footer-right-side {
+        margin-right: 70px;
+        height: 100px;
+    }
+}
+
+@media(max-width: 330px){
+    .footer-logo-small {
+        height: 75px;
     }
 }
