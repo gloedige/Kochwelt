@@ -72,6 +72,7 @@ h3 {
 .profile-name{
     display: flex;
     align-items: center;
+    padding-bottom: 32px;
 }
 
 table{
