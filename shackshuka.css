@@ -255,8 +255,10 @@ td {
 }
 .rightalign {
     text-align:right;
-    width:100px;
-    padding-left:20px;
+    width: 10%;
+}
+.picture-distance {
+    margin-bottom:50px;
 }
 .rightalign {
     text-align:right;
