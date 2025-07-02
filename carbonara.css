@@ -126,4 +126,11 @@ td {
         gap:16px;
         flex-direction: column;
     }
+    .user-img{
+        width: 96px;
+        border-radius: 48px;
+    }
+    .section-content-owner{
+        margin-bottom: 40px;
+    }
 }
