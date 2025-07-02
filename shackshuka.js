@@ -12,11 +12,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
 modal.style.display = "none";
 }
-//recipe calc//
-function myFunction(){
-    event.preventDefault();
-    var x = document.getElementById('portionen').valueAsNumber;
-    var cells = document.querySelectorAll('IngridientAmount')
-    console.log(td)
-}
-
+//calc funktion für Rezept//
+function cal
+var input = document.getElementById("quantity").value;
+console.log
