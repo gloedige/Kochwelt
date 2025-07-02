@@ -15,17 +15,14 @@
     margin-left: 32px;
 }
 .croissants-text{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
-.reciepe-overview{
+.recipe-overview{
     display: flex;
     padding: 0px 160px;
     justify-content: space-between;
 }
-.single-reciepe{
-
-}
-.single-reciepe-img{
+.single-recipe-img{
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -33,13 +30,13 @@
 .section-proposal-overview{
     background-color: #EFEFEF;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 64px;
     margin-top: 100px;
 }
 .section-further-topics{
     padding: 0px 160px;
     margin-top: 60px;
-    margin-bottom: 160px;
+    margin-bottom: clamp(24px, 10vw, 160px);
 }
 .container-further-topics-info{
     display: flex;
@@ -54,4 +51,65 @@
 .further-topics-text{
     margin-top:32px;
     flex:1;
+}
+
+@media(max-width: 1200px){
+    .section-croissants{
+        flex-direction: column;
+        padding-right: clamp(24px, 10vw, 160px);
+        padding-left: clamp(24px, 10vw, 160px);
+        margin-top: clamp(24px, 8vw, 120px);
+    }
+    .croissant-img{
+        object-fit: cover;
+        margin-bottom: 32px;
+    }
+    .croissants-info{
+        margin-left: 0px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .croissants-text{
+        text-align: justify;
+    }
+    .section-proposal-overview{
+        margin-top: 50px;
+    }
+    .recipe-overview{
+        flex-direction: column;
+        align-items: center;
+    }
+    .single-recipe{
+        margin-bottom: 16px;
+    }
+    .single-recipe-img{
+            width: 400px;
+            height: 400px;
+    }
+    @media(max-width:1000px){
+        .section-further-topics{
+            padding-right: clamp(24px, 10vw, 160px);
+            padding-left: clamp(24px, 10vw, 160px);
+        }
+        .container-further-topics-info{
+            flex-direction: column-reverse;
+        }
+        .further-topics-img{
+            object-fit: cover;
+            width: unset;
+            margin-left: 0px;
+        }
+        .further-topics-text{
+            text-align: justify;
+        }
+    }
+
+    @media(max-width: 600px){
+        .single-recipe-img{
+            width: 200px;
+            height: 200px;
+        }    
+    }
+
 }
