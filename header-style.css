@@ -1,12 +1,11 @@
 header {
-    height: 112px;
-    width: 1440px;
-    margin: 0px;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 112px;
+  flex-wrap: wrap;
 }
+
 .grey {
   color: #675e54;
 }
@@ -15,13 +14,11 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 200px;
+  width: 300px;
   height: 92px;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 160px;
+  margin-left:160px;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -30,40 +27,33 @@ a:hover {
   text-decoration: underline;
   color: green;
 }
-.distance {
-  gap: 32px;
-  padding-bottom: 30px;
-  margin-right: 160px;
-}
-.horizontal {
+nav.distance.horizontal {
   display: flex;
   align-items: flex-end;
+  gap: 32px;
+  flex-wrap: wrap;
+  height:80px;
+  margin-right:160px;
 }
 #separator_horizontal {
   border-bottom: 0.5px solid rgb(0, 0, 0);
   box-shadow: 0px 0.5px 0.5px rgb(0, 0, 0), 0px 1px 1px rgb(0, 0, 0),
     0px 2px 2px rgb(0, 0, 0), 0px 3px 3px rgb(0, 0, 0), 0px 4px 4px rgb(0, 0, 0),
     0px 5px 5px rgb(0, 0, 0);
-  width: 100%;
   opacity: 0.2;
+  width:100%;
 }
 /*Resp Burgermenu*/
-.burgermenu {
-    background-image: url(/img/icons/bars-solid.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    width: auto;
-    display: none;
-    margin-top: 72px;
-    margin-right: 240px;
-    position: relative;
-    overflow-y: hidden;
-    border: none;
-    background-color: white;
-    height: 15%;
+#burgermenu {
+  background-image: url(/img/icons/bars-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+
 }
+
 a:.dropbtn {
   background-color:#3498D8;
   color: white;
@@ -78,8 +68,9 @@ a:.dropbtn {
 }
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: none;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -88,6 +79,7 @@ a:.dropbtn {
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  margin-top:28px;
 }
 
 .dropdown-content a  {
@@ -118,18 +110,19 @@ a:.dropbtn {
     margin-left: clamp(20px, 10vw, 160px);
   } 
   nav.distance.horizontal {
-    margin-right: clamp(20px, 10vw, 160px);
+    margin-right: clamp(20px, 5vw, 160px);
   }
 }
 @media screen and (max-width: 800px){
   nav.distance.horizontal {
     display: none;
     }
-  .burgermenu {
+  #burgermenu {
     display: flex;
     margin-right: clamp(20px, 10vw, 160px);
     }
   .dropdown {
+    display: flex;
     margin-right: clamp(20px, 10vw, 160px);
   }
     #logo {
@@ -144,10 +137,9 @@ a:.dropbtn {
 @media screen and (max-width: 600px){
     #logo {
     background-image: url(./img/logo_small.png);
-    width: 100px;
+    width: 50px;
     height: 40px;
-    margin-top: 45px;
-    margin-left: 35px;
+    padding-top: 45px;
     flex-shrink: 1;
   }
 }
