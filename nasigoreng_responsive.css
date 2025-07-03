@@ -1,5 +1,5 @@
 .nasigoreng-main{
-    padding: clamp(24px, 10vw, 160px);
+    padding: clamp(24px, 11,1vw, 160px);
 }
 
 body{
@@ -102,8 +102,8 @@ table {
 
 @media(max-width: 800px) {
     .nasigoreng-main{
-        margin-left: clamp(24px, 10vw, 160px);
-        margin-right: clamp(24px, 10vw, 160px);
+        margin-left: clamp(24px, 11,1vw, 160px);
+        margin-right: clamp(24px, 11,1vw, 160px);
     }
 
     .information {
@@ -132,8 +132,8 @@ table {
 
 @media(max-width: 440px){
    .nasigoreng-main{
-        margin-left: 0 80px;
-        margin-right: 0 80px;
+        margin-left: clamp(24px, 11,1vw, 160px);
+        margin-right: clamp(24px, 11,1vw, 160px);
     }
 }
 
