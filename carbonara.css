@@ -60,7 +60,7 @@ h1, h2, h3{
 input{
     height: 36px;
     margin-left: 8px;
-    width: 128px;
+    width: 157px;
 }
 table#customers {
     border-spacing: 0;
@@ -123,8 +123,18 @@ td {
     .preparation-text{
         font-size: 16px;
     }
+    input{
+        flex: 1;
+    }
 }
 @media(max-width:500px){
+    
+    input{
+        flex: none;
+        margin-left: 0px;
+    }.scaler{
+        flex-direction: column;
+    }
     .section-recipe-info{
         gap:16px;
         flex-direction: column;
