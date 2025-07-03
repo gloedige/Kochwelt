@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 160px;
-    margin-bottom: 160px;
 }
 .formfield {
     max-width: 700px;
@@ -20,7 +19,6 @@
     align-items: center;
     gap: 15px;
     padding:0 20px;
-    margin-top:160px;
 }
 .input-textarea {
     width: 500px;
@@ -66,6 +64,7 @@ div {
 .container-body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 @media screen and (max-width:700px) {
     .input-textarea {
