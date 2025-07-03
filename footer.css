@@ -44,6 +44,7 @@ footer {
 @media(max-width: 900px) {
     .footer-logo {
         height: 100px;
+        margin-left: 100px;
     }
 
     .footer-icon {
