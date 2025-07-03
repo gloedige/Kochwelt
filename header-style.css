@@ -64,8 +64,7 @@ a:hover {
     background-color: white;
     height: 15%;
 }
-a:
-.dropbtn {
+a:.dropbtn {
   background-color:#3498D8;
   color: white;
   padding: 16px;
@@ -100,7 +99,9 @@ a:
 
 .dropdown-content a:hover {background-color: #bebebe;}
 
-.show {display: block;}
+.show {
+  display: block;
+}
 
 /* Media Query */
 
@@ -114,12 +115,10 @@ a:
     font-size: 14px;
   }
   #logo {
-    width: clamp(10%, 40%, 50%);
-    margin-left: clamp(10px, 50px, 160px);
+    margin-left: clamp(20px, 10vw, 160px);
   } 
   nav.distance.horizontal {
-    width: clamp(20%, 35%, 50%);
-    margin-right: clamp(10px, 100px, 160px);
+    margin-right: clamp(20px, 10vw, 160px);
   }
 }
 @media screen and (max-width: 800px){
@@ -128,8 +127,27 @@ a:
     }
   .burgermenu {
     display: flex;
+    margin-right: clamp(20px, 10vw, 160px);
     }
   .dropdown {
-    margin-right: clamp(10px, 5px, 30px);
+    margin-right: clamp(20px, 10vw, 160px);
+  }
+    #logo {
+    width:clamp(100px, 200px);
+  } 
+}
+@media screen and (min-width: 800px){
+    .show {
+    display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    #logo {
+    background-image: url(./img/logo_small.png);
+    width: 100px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 35px;
+    flex-shrink: 1;
   }
 }
