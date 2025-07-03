@@ -2,16 +2,12 @@
     text-align:left;
 }
 .form-wrapper {
-    height: 100vh;
-    width: 100vw;
+    flex:1;
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     margin-top: 160px;
     margin-bottom: 160px;
-=======
->>>>>>> 7883e02 (finish form)
 }
 .formfield {
     max-width: 700px;
@@ -64,9 +60,12 @@
 .input-submit:hover {
     background-color: #45a049;
 }
-
 div {
     border-radius: 5px;
+}
+.container-body {
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (max-width:700px) {
     .input-textarea {
