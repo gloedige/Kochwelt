@@ -3,7 +3,7 @@
     margin-right: 160px;
 }
 .food-image {
-    width: 100%;
+    width: 100vw;
     height: 14rem;
     object-fit: cover;
     margin-bottom: 24px;
