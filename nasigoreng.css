@@ -9,6 +9,11 @@
     margin-bottom: 24px;
     border-radius: 16px;
 }
+h1{
+    text-align: left;
+    padding-bottom: 24px;
+    padding-top: 30px;
+}
 
 h2 {
     text-align: left;
@@ -34,7 +39,7 @@ h3 {
 }
 
 .p-text{
-    font-size: 10px;
+    font-size: 18px;
     margin: 0px;
 }
 
@@ -62,6 +67,7 @@ h3 {
     width: 160px;
     height: 40px;
     color: #fff;
+    cursor: pointer;
 }
 
 .profile-img {
@@ -122,6 +128,10 @@ table {
 
     .portion{
         padding-bottom: 32px;
+    }
+
+    p{
+        font-size: 20px;
     }
 }
 
