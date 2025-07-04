@@ -1,0 +1,20 @@
+h1, h2, h3{
+    text-align: left;
+    margin-bottom: 32px;
+}
+.section-welcome{
+    margin-right: clamp(24px, 11.1vw, 160px);
+    margin-left: clamp(24px, 11.1vw, 160px);
+    margin-top: 80px;
+}
+.container-carbonara-img{
+    display: flex;
+    padding-bottom: 128px;
+}
+.carbonara-img{
+    height: 240px;
+    width: 100vw;
+    object-fit: cover;
+    border-radius: 5px;
+    border: none;
+}
