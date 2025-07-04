@@ -52,9 +52,7 @@ nav.distance.horizontal {
   background-size: cover;
   width: 25px;
   height: 25px;
-
 }
-
 a.dropbtn {
   background-color:#3498D8;
   color: white;
@@ -63,7 +61,6 @@ a.dropbtn {
   border: none;
   cursor: pointer;
 }
-
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
 }
@@ -71,7 +68,6 @@ a.dropbtn {
   position: relative;
   display: none;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -82,22 +78,18 @@ a.dropbtn {
   z-index: 1;
   margin-top:28px;
 }
-
 .dropdown-content a  {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: #bebebe;}
 
 .show {
   display: block;
 }
-
 /* Media Query */
-
 @media screen and (max-width: 1050px){
   .distance {
     gap: 16px;

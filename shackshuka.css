@@ -87,7 +87,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    max-width: 300px;
     padding-top: 20px;
     padding-bottom: 30px;
     gap:32px;
@@ -115,8 +115,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: auto;
-    height: auto;
     border-radius: 5px;
     padding:5px 10px;
     gap:16px;
@@ -171,10 +169,6 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
-}
-input,
-button {
-    float: c;
 }
 #button-styling {
     background-color: green;
@@ -280,31 +274,62 @@ td {
     }
 }
 @media screen and (max-width: 700px){
+    .button-aligning {
+        flex-direction: column;
+        gap: 8px;
+        max-width: 500px;
+    }
     #portionen {
-        width:68px;
+        width:clamp(60px ,20vw ,128px);
+    }
+    .button {
+        width:clamp(60px ,20vw ,200px);
+        justify-content: center;
+    }
+    #amount {
+        flex-direction: column;
+        margin-left: clamp(50px, 10vw, 160px);
+        margin-left: 0px;
+    }
+    .margin {
+        margin-left: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px ,10vw ,160px);
+    }
+    table#customers {
+        margin-left: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px ,10vw ,160px);
+    }
+    #section-seperator {
+        margin-left: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px ,10vw ,160px);
     }
 }
 @media screen and (max-width: 675px){
-    .info-container {
-        padding:0px 5px;
+    .button-adjust {
+        flex-direction: column;
     }
-    .button-aligning {
-        gap:0px;
-        min-width:260px;
-        width:auto;
+    .button {
+        padding: 12px 4px;
+    }
+    #portionen {
+        width:clamp(24px ,10vw ,160px);
+        padding: 12px 2px;
+    }
+    .button-adjust {
+        align-items: center;
     }
 }
 @media screen and (max-width: 600px){
-    #portionen {
-        width:32px;
+    .button-adjust {
+        align-items: center;
     }
 }
-@media screen and (max-width: 575px){
-    .info-container {
-    gap:0px;
-    }
-    .button-aligning {
-    min-width:215px;
-    width:auto;
+@media screen and (max-width: 400px){
+    .button {
+        font-size: 12px;
+        }
+    #portionen {
+        width:clamp(24px ,10vw ,160px);
+        padding: 12px 0px;
     }
 }
