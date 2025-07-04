@@ -306,6 +306,7 @@ td {
     #portionen {
         width:clamp(24px ,10vw ,160px);
         padding: 12px 2px;
+        padding-right: 38px;
     }
     .button-adjust {
         align-items: center;
@@ -323,5 +324,6 @@ td {
     #portionen {
         width:clamp(24px ,10vw ,160px);
         padding: 12px 0px;
+        padding-right: 34px;
     }
 }
