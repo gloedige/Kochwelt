@@ -249,22 +249,14 @@ td {
 }
 .rightalign {
     text-align:right;
-    width: 10%;
+    width: 100px;
 }
 .picture-distance {
     margin-bottom:50px;
 }
-.rightalign {
-    text-align:right;
-    width: 10%;
-}
 .picture-distance {
     margin-bottom:50px;
 }
-.rightalign {
-    text-align:right;
-}
-
 @keyframes zoom {
     from {
         transform: scale(0);
