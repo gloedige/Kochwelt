@@ -28,10 +28,13 @@ function zahlZuBruchString(zahl) {
     return ganz > 0 ? `${ganz} ${naechste.bruch}` : naechste.bruch;
 }
 
-function aktualisiereZutaten() {
+function aktualisiereZutaten(event) {
+    event.preventDefault();
     const portionen = parseInt(document.getElementById("input-portion").value);
     const zutaten = document.querySelectorAll("td[data-menge]");
 
+    if (portionen<1){console.log('Wert muss größer gleich 1 sein')}
+    else {
     zutaten.forEach(td => {
         const mengeRaw = td.getAttribute("data-menge");
         const einheit = td.getAttribute("data-einheit") || "";
@@ -46,4 +49,5 @@ function aktualisiereZutaten() {
         
         td.innerText = text.trim();
     });
+    };
 }

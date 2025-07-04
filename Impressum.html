@@ -6,22 +6,32 @@
     <title>Kochwelt</title>
     <link rel="icon" type="image/x-icon" href="./img/logo_small.png" />
     <link rel="stylesheet" href="header-style.css" />
-    <link rel="stylesheet" href="main-style.css" />
+    <link rel="stylesheet" href="main-style.css" />        
+    <link rel="stylesheet" href="footer.css" />
   </head>
-  <body>
+  <body style="height:100vh" class="container-landing-page">
+<!-----------------------------------------------PLEASE COPY HEADER FROM HERE-------------------------------------------------------------->
     <header>
-      <a href="./index.html"
-        ><div id="logo" role="img" aria-label="Kochwelt Logo"></div
-      ></a>
-      <nav class="distance horizontal">
-        <a class="grey" href="./index.html" target="_self">Start</a>
-        <a class="grey" href="" target="_self">Rezept des Tages</a>
-        <a class="grey" href="./Contact.html" target="_self">Kontakt</a>
-        <a class="grey" href="./Impressum.html" target="_self">Impressum</a>
-      </nav>
-      <div id="separator_horizontal"></div>
+        <a id="logo"role="img"href="./index.html"></a>
+            <nav class="distance horizontal">
+                <a class="grey" href="./index.html"target="_self">Start</a>
+                <a class="grey" href="./shackshuka.html"target="_self">Rezept des Tages</a>
+                <a class="grey" href="./Contact.html"target="_self">Kontakt</a>
+                <a class="grey" href="./Impressum.html" target="_self">Impressum</a>
+            </nav>
+            <div class="dropdown">
+                <button id="burgermenu" class="dropbtn" onclick="myFunction()"></button>
+                <div id="myDropdown" class="dropdown-content">
+                <a class="grey" href="./index.html"target="_self">Start</a>
+                <a class="grey" href="./shackshuka.html"target="_self">Rezept des Tages</a>
+                <a class="grey" href="./Contact.html"target="_self">Kontakt</a>
+                <a class="grey" href="./Impressum.html" target="_self">Impressum</a>
+                </div>
+            </div>
     </header>
-    <div style="text-align: center">
+    <div id="separator_horizontal"></div>
+<!-----------------------------------------------PLEASE COPY HEADER FROM HERE------------------------------------------------------------ -->
+    <div style="text-align: center" class="container-main-content">
       <h1>Impressum</h1>
       <p>
         Felix Jemlich<br />
@@ -40,5 +50,22 @@
         <a href="https://fontawesome.com/license" target="_blank" rel="nofollow">Creative Commons Attribution 4.0 International license</a>.
         </span>
     </div>
+        <footer>
+        <div class="footer-left-side">
+            <img class="footer-logo" src="./img/logo_white.png" alt="Logo-icon">
+            <img class="footer-logo-small" src="./img/logo_white_small.png" alt="Logo-icon">
+        </div>
+        <div class="footer-right-side">
+            <div class="footer-right-top">
+            <a href="https://www.facebook.com/" target="_blank"> <img class="footer-icon" src="./img/facebook_white.png" alt="facebook-icon"> </a>
+            <a href="https://www.instagram.com/" target="_blank"> <img class="footer-icon" src="./img/instagram_white.png" alt="instagram-icon"> </a>
+            <a href="https://x.com/" target="_blank"> <img class="footer-icon" src="./img/twitter_white.png" alt="twitter-icon"> </a>
+            </div>
+            <div class="footer-right-bottom"> 
+                <a class="footer-link" href="Datenschutz.html"><p>Datenschutz</p> </a>
+            </div>
+        </div>
+    </footer>
   </body>
+  <script src="header.js"></script>
 </html>
