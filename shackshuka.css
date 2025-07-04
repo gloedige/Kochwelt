@@ -249,22 +249,14 @@ td {
 }
 .rightalign {
     text-align:right;
-    width: 10%;
+    width: 100px;
 }
 .picture-distance {
     margin-bottom:50px;
 }
-.rightalign {
-    text-align:right;
-    width: 10%;
-}
 .picture-distance {
     margin-bottom:50px;
 }
-.rightalign {
-    text-align:right;
-}
-
 @keyframes zoom {
     from {
         transform: scale(0);
@@ -279,11 +271,7 @@ td {
         gap: 8px;
         max-width: 500px;
     }
-    #portionen {
-        width:clamp(60px ,20vw ,128px);
-    }
     .button {
-        width:clamp(60px ,20vw ,200px);
         justify-content: center;
     }
     #amount {
@@ -309,11 +297,11 @@ td {
         flex-direction: column;
     }
     .button {
-        padding: 12px 4px;
+        padding: 12px 58px;
     }
     #portionen {
-        width:clamp(24px ,10vw ,160px);
-        padding: 12px 2px;
+        padding: 12px 0px;
+        padding-right: 56px;
     }
     .button-adjust {
         align-items: center;
@@ -329,7 +317,7 @@ td {
         font-size: 12px;
         }
     #portionen {
-        width:clamp(24px ,10vw ,160px);
         padding: 12px 0px;
+        padding-right: 34px;
     }
 }
