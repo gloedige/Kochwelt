@@ -16,11 +16,12 @@ header {
   background-position: center;
   width: 300px;
   height: 92px;
-  margin-left:160px;
+  margin-left: clamp(24px, 10vw, 160px);
 }
 
 a {
   text-decoration: none;
+  color: black;
   color: black;
 }
 a:hover {
@@ -33,7 +34,7 @@ nav.distance.horizontal {
   gap: 32px;
   flex-wrap: wrap;
   height:80px;
-  margin-right:160px;
+  margin-right: clamp(24px, 10vw, 160px);
 }
 #separator_horizontal {
   border-bottom: 0.5px solid rgb(0, 0, 0);
@@ -54,7 +55,7 @@ nav.distance.horizontal {
 
 }
 
-a:.dropbtn {
+a.dropbtn {
   background-color:#3498D8;
   color: white;
   padding: 16px;
@@ -107,29 +108,29 @@ a:.dropbtn {
     font-size: 14px;
   }
   #logo {
-    margin-left: clamp(20px, 10vw, 160px);
+    margin-left: clamp(24px, 10vw, 160px);
   } 
   nav.distance.horizontal {
-    margin-right: clamp(20px, 5vw, 160px);
+    margin-right: clamp(24px, 10vw, 160px);
   }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
   nav.distance.horizontal {
     display: none;
     }
   #burgermenu {
     display: flex;
-    margin-right: clamp(20px, 10vw, 160px);
+    margin-right: clamp(24px, 10vw, 160px);
     }
   .dropdown {
     display: flex;
-    margin-right: clamp(20px, 10vw, 160px);
+    margin-right: clamp(24px, 10vw, 160px);
   }
     #logo {
     width:clamp(100px, 200px);
   } 
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 850px){
     .show {
     display: none;
     }

@@ -292,16 +292,16 @@ td {
         margin-left: 0px;
     }
     .margin {
-        margin-left: clamp(50px, 10vw, 160px);
-        margin-right: clamp(50px, 10vw, 160px);
+        margin-left: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px ,10vw ,160px);
     }
     table#customers {
-        margin-left: clamp(50px, 10vw, 160px);
-        margin-right: clamp(50px, 27vw, 160px);
+        margin-left: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px ,10vw ,160px);
     }
     #section-seperator {
-        margin-left: clamp(50px ,10vw, 160px);
-        margin-right: clamp(20px ,10vw, 160px);
+        margin-left: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px ,10vw ,160px);
     }
 }
 @media screen and (max-width: 675px){
@@ -312,7 +312,7 @@ td {
         padding: 12px 4px;
     }
     #portionen {
-        width:clamp(60px ,19vw ,210px);
+        width:clamp(24px ,10vw ,160px);
         padding: 12px 2px;
     }
     .button-adjust {
@@ -329,7 +329,7 @@ td {
         font-size: 12px;
         }
     #portionen {
-        width:clamp(60px ,19vw ,210px);
+        width:clamp(24px ,10vw ,160px);
         padding: 12px 0px;
     }
 }
