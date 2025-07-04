@@ -2,7 +2,7 @@
 .margin {
     margin-left: clamp(24px ,10vw ,160px);
     margin-right: clamp(24px ,10vw ,160px);
-    }
+}
 #dish-presentation {
     color:aliceblue
 }
