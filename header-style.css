@@ -63,10 +63,12 @@ a.dropbtn {
 }
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
+  cursor: pointer;
 }
 .dropdown {
   position: relative;
   display: none;
+  margin-right: 160px;
 }
 .dropdown-content {
   display: none;
@@ -112,11 +114,9 @@ a.dropbtn {
     }
   #burgermenu {
     display: flex;
-    margin-right: clamp(24px, 10vw, 160px);
     }
   .dropdown {
     display: flex;
-    margin-right: clamp(24px, 10vw, 160px);
   }
     #logo {
     width:clamp(100px, 200px);
