@@ -52,6 +52,9 @@ nav.distance.horizontal {
   background-size: cover;
   width: 25px;
   height: 25px;
+  border: none;
+  background-color: white;
+}
 }
 a.dropbtn {
   background-color:#3498D8;
@@ -68,13 +71,12 @@ a.dropbtn {
 .dropdown {
   position: relative;
   display: none;
-  margin-right: 160px;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 140px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -82,7 +84,7 @@ a.dropbtn {
 }
 .dropdown-content a  {
   color: black;
-  padding: 12px 16px;
+  padding: 8px 12px;
   text-decoration: none;
   display: block;
 }
@@ -90,6 +92,7 @@ a.dropbtn {
 
 .show {
   display: block;
+  transform: translatex(-85%);
 }
 /* Media Query */
 @media screen and (max-width: 1050px){
@@ -114,6 +117,7 @@ a.dropbtn {
     }
   #burgermenu {
     display: flex;
+    margin-right:80px;
     }
   .dropdown {
     display: flex;
@@ -135,4 +139,9 @@ a.dropbtn {
     padding-top: 45px;
     flex-shrink: 1;
   }
+}
+@media screen and (max-width: 400px){
+    .show {
+    transform: translatex(-40%);
+}
 }
