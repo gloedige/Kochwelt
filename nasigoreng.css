@@ -149,5 +149,9 @@ table {
         margin-left:15px;
     }
 }
-
+@media(max-width:400px){
+    .input-portion{
+    width: clamp(48px, 22vw, 154px);
+    }
+}
 
