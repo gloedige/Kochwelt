@@ -108,7 +108,7 @@ table {
 }
 @media(max-width: 800px) {
     .information {
-        flex-direction: column;
+        
         align-items: center;
     }
 
@@ -134,7 +134,20 @@ table {
         font-size: 20px;
     }
 }
-
-
+@media(max-width: 530px) {
+    .p-text{
+        font-size: 12px;
+    }
+    .information{
+        gap: 8px;
+    }
+    .icon-text {
+        padding: 5px 8px;
+    }
+    .nasigoreng-main {
+        margin-right:15px;
+        margin-left:15px;
+    }
+}
 
 
