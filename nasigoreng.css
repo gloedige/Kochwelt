@@ -108,12 +108,11 @@ table {
 }
 @media(max-width: 800px) {
     .information {
-        
+
         align-items: center;
     }
 
     .portion{
-        flex-direction: column;
         align-items: center;
     }
 
@@ -133,6 +132,10 @@ table {
     p{
         font-size: 20px;
     }
+
+    .input-portion{
+    width: clamp(24px, 10vw, 160px);
+    }
 }
 @media(max-width: 530px) {
     .p-text{
@@ -150,8 +153,8 @@ table {
     }
 }
 @media(max-width:400px){
-    .input-portion{
-    width: clamp(48px, 22vw, 154px);
+    .button-portion{
+        width: 100px;
+        flex: 1;
     }
 }
-
