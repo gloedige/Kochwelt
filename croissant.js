@@ -19,11 +19,12 @@
             let varCalcQuantity = factorInput.value*quantityOfOne;
             cell1.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
         }
+        
     }
     let table = document.getElementById('table-incredients');
     
-    const amount = [250, 30, 50, 0,5, 12, 115, 5, 0, 125];
-    const incredient = ["Pasta, lang und dünn",
+    let amount = [250, 30, 50, 0.5, 12, 115, 5, 125];
+    let incredient = [
         "Mehl",
         "Zucker",
         "Butter, weiche",
@@ -31,10 +32,9 @@
         "Frischhefe",
         "Wasser, kaltes",
         "Milch",
-        "Mehl für die Arbeitsfläche",
         "Butter, kalte",
     ]
-    const unit = [" g "," g "," g ", " TL "," g "," g "," g ","  "," g "," g "]
+    let unit = [" g "," g "," g ", " TL "," g "," g "," g "," "," g "]
 
     for (let i=0; i<amount.length; i++){
         let row = table.insertRow(i);
@@ -51,3 +51,4 @@
         event.preventDefault();
         calcQuantity();
     });
+    Text()
