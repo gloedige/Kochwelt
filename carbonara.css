@@ -60,7 +60,7 @@ h1, h2, h3{
 input{
     height: 36px;
     margin-left: 8px;
-    width: 157px;
+    width: 124px;
 }
 table#customers {
     border-spacing: 0;
@@ -108,36 +108,41 @@ td {
     font-size: 32px;
 }
 @media(max-width:600px){
-    .section-recipe-info{
-        gap:0px;
-        justify-content: space-evenly;
-    }
     .section-preparation-info{
         gap:16px;
-        flex-direction: column;
         justify-content: space-evenly;
     }
     .button-info{
         justify-content: center;
+        padding: 0px 4px;
+    }
+    .icon-img {
+        margin-right: 2px;
     }
     .preparation-text{
         font-size: 16px;
     }
     input{
-        flex: 1;
+        width:clamp(24px, 14vw, 96px) ;
+    }
+    p{
+        font-size: 12px;
+    }
+    table{
+        font-size: 10px;
+    };
+    .preparation-text {
+        font-size: 12px;
     }
 }
-@media(max-width:500px){
-    
+@media(max-width:500px){  
     input{
         flex: none;
         margin-left: 0px;
-    }.scaler{
-        flex-direction: column;
+        /* width: clamp(36px, 23vw, 124px) */
     }
     .section-recipe-info{
         gap:16px;
-        flex-direction: column;
     }
     .user-img{
         width: 96px;
@@ -145,5 +150,11 @@ td {
     }
     .section-content-owner{
         margin-bottom: 40px;
+    }
+    .button {
+        padding-left: clamp(34px,10vw,48px);
+        padding-right: clamp(34px,10vw,48px);
+        text-align: center;
+        padding: 12px 18px;
     }
 }
