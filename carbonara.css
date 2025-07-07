@@ -130,7 +130,10 @@ td {
     }
     table{
         font-size: 10px;
-    };
+    }
+    td {
+        padding: 10px 20px;
+    }
     .preparation-text {
         font-size: 12px;
     }
