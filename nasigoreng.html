@@ -48,11 +48,11 @@
             </div>
         </div>
 
-    <div> 
+     <div> 
         <div class="portion">
             <p>Zutaten für</p>
-            <form onsubmit="aktualisiereZutaten(event)">
-            <input Class="input-portion"type="number"id="input-portion"min="1"max="8"required value="4"placeholder="How many Person?">
+            <form id="amount" onsubmit="calculate(event)">
+            <input Class="inputportion"type="number"id="inputportion"min="1"max="8"required value="4"placeholder="How many Person?">
             <button class="button-portion" type="submit">Portionen</button>
             </form>
         </select>
@@ -62,43 +62,43 @@
 <table>
     <tbody>
     <tr>
-        <td data-menge="75" data-einheit="g" data-zutat="Langkornreis">75g Langkornreis</td>
+        <td id="datamenge1">75g Langkornreis</td>
     </tr>
     <tr>
-        <td class="td-white" data-menge="1" data-einheit="Prise" data-zutat="Salz">1 Prise Salz</td>
+        <td class="td-white" id="datamenge2">1 Prise Salz</td>
     </tr>
     <tr>
-        <td data-menge="3/4" data-einheit="EL" data-zutat="Erdnussöl">3/4 EL Erdnussöl</td>
+        <td id="datamenge3">1 EL Erdnussöl</td>
     </tr>
     <tr>
-        <td class="td-white" data-menge="1/4" data-einheit="" data-zutat="Zwiebel">1/4 Zwiebel</td>
+        <td class="td-white" id="datamenge4">0,5 Zwiebel</td>
     </tr>
     <tr>
-        <td data-menge="3/4" data-einheit="" data-zutat="Knoblauchzehe">3/4 Knoblauchzehe</td>
+        <td id="datamenge5">1 Knoblauchzehe</td>
     </tr>
     <tr>
-        <td class="td-white" data-menge="1/4" data-einheit="" data-zutat="Chilisote">1/4 Chilischote</td>
+        <td class="td-white" id="datamenge6">0,5 Chilischote</td>
     </tr>
     <tr>
-        <td data-menge="7" data-einheit="g" data-zutat="Ingwer">7g Ingwer</td>
+        <td id="datamenge7">7g Ingwer</td>
     </tr>
     <tr>
-        <td class="td-white" data-menge="50" data-einheit="g" data-zutat="Möhre">50g Möhren</td>
+        <td class="td-white"id="datamenge8">50g Möhren</td>
     </tr>
     <tr>
-        <td data-menge="3/4" data-einheit="" data-zutat="Lauchzwiebel">3/4 Lauchzwiebel</td>
+        <td id="datamenge9">1 Lauchzwiebel</td>
     </tr>
     <tr>
-        <td class="td-white" data-menge="50" data-einheit="" data-zutat="Spargelbohnen oder Prinzess-Bohnen">50 Spargelbohnen oder Prinzess-Bohnen</td>
+        <td class="td-white" id="datamenge10">50 Spargelbohnen oder Prinzess-Bohnen</td>
     </tr>
     <tr>
-        <td data-menge="1/2" data-einheit="" data-zutat="Hähnchenbrustfilet">1/2 Hähnchenbrustfilet</td>
+        <td id="datamenge11">0,5 Hähnchenbrustfilet</td>
     </tr>
     <tr>
-        <td class="td-white" data-menge="1" data-einheit="EL" data-zutat="Sojasauce">1 EL Sojasauce</td>
+        <td class="td-white" id="datamenge12">1 EL Sojasauce</td>
     </tr>
     <tr>
-        <td data-menge="1/2" data-einheit="EL" data-zutat="Ketchup Manis">1/2 EL Ketchup Manis</td>
+        <td id="datamenge13">0,5 EL Ketchup Manis</td>
     </tr>
 </tbody>
 </table>
