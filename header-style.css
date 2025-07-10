@@ -8,6 +8,8 @@ header {
 
 .grey {
   color: #675e54;
+  font-size: 20px;
+  font-weight: 600;
 }
 #logo {
   background-image: url(./img/logo_black.png);
@@ -94,7 +96,7 @@ a.dropbtn {
   transform: translatex(-85%);
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1150px){
   .distance {
     gap: 16px;
   }
@@ -110,7 +112,7 @@ a.dropbtn {
     margin-right: clamp(24px, 7vw, 160px);
   }
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1150px){
   nav.distance.horizontal {
     display: none;
     }
