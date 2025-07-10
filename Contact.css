@@ -66,7 +66,6 @@ div {
 .container-body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 @media screen and (max-width:700px) {
     .input-textarea {
