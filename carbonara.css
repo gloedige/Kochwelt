@@ -134,10 +134,10 @@ td {
         font-size: 16px;
     }
 }
-@media(max-width:500px){  
+@media(max-width:600px){  
     input{
         flex: none;
-        margin-left: 0px;
+        margin-left: 8px;
     }
     .section-welcome{
         margin-right: clamp(24px, 5vw, 160px);
