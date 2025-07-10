@@ -1,7 +1,7 @@
 
 .margin {
-    margin-left: clamp(24px ,10vw ,160px);
-    margin-right: clamp(24px ,10vw ,160px);
+    margin-left: clamp(24px ,5vw ,160px);
+    margin-right: clamp(24px ,5vw ,160px);
 }
 #dish-presentation {
     color:aliceblue
@@ -132,7 +132,7 @@
     flex-direction: column;
 }
 #amount {
-    margin-left: clamp(50px, 10vw, 160px);
+    margin-left: clamp(50px, 5vw, 160px);
     margin-bottom:32px;
     margin-top:16px;
     display: flex;
@@ -193,8 +193,8 @@ button:hover {
 }
 table#customers {
     border-spacing: 0;
-    margin-left: clamp(24px ,10vw ,160px);
-    margin-right: clamp(24px ,10vw ,160px);
+    margin-left: clamp(24px ,5vw ,160px);
+    margin-right: clamp(24px ,5vw ,160px);
     width: auto;
 }
 table,tr {
@@ -258,26 +258,26 @@ td {
 @media screen and (max-width: 700px){
     .button-aligning {
         /* flex-direction: column; */
-        gap: 8px;
+        gap: 4px;
     }
     .button {
         justify-content: center;
     }
     #amount {
         /* flex-direction: column; */
-        margin-left: clamp(24px, 10vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .margin {
-        margin-left: clamp(24px ,10vw ,160px);
-        margin-right: clamp(24px ,10vw ,160px);
+        margin-left: clamp(24px ,5vw ,160px);
+        margin-right: clamp(24px ,5vw ,160px);
     }
     table#customers {
-        margin-left: clamp(24px ,10vw ,160px);
-        margin-right: clamp(24px ,10vw ,160px);
+        margin-left: clamp(24px ,5vw ,160px);
+        margin-right: clamp(24px ,5vw ,160px);
     }
     #section-seperator {
-        margin-left: clamp(24px ,10vw ,160px);
-        margin-right: clamp(24px ,10vw ,160px);
+        margin-left: clamp(24px ,5vw ,160px);
+        margin-right: clamp(24px ,5vw ,160px);
     }
 }
 @media screen and (max-width: 600px){
@@ -295,17 +295,12 @@ td {
 }
 @media screen and (max-width: 430px){
     .info-container {
-        font-size: 12px;
         padding: 5px 2px;
         gap: 6px
     }
 }
 @media screen and (max-width: 400px){
-    .button {
-        font-size: 12px;
-        }
     #portionen {
         padding: 10px 0px;
-        font-size: 12px;
     }
 }
