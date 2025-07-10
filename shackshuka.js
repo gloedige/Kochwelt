@@ -1,5 +1,3 @@
-
-//recipe calc// 
 let IngridientAmount1 = 150,
     IngridientAmount2 = 1,
     IngridientAmount3 = 1,
