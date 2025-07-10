@@ -54,7 +54,7 @@ h3 {
     gap: 16px;
 }
 
-.input-portion {
+.inputportion {
     width: 154px;
     height: 38px;
     border-radius: 6px;
@@ -133,7 +133,7 @@ table {
         font-size: 20px;
     }
 
-    .input-portion{
+    .inputportion{
     width: clamp(24px, 10vw, 160px);
     }
 }
