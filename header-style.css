@@ -56,6 +56,7 @@ nav.distance.horizontal {
   height: 25px;
   border: none;
   background-color: white;
+  margin-right: clamp(24px, 11.1vw, 160px);
 }
 a.dropbtn {
   background-color:#3498D8;
@@ -118,7 +119,7 @@ a.dropbtn {
     }
   #burgermenu {
     display: flex;
-    margin-right:80px;
+    margin-right: clamp(24px, 11.1vw, 160px);
     }
   .dropdown {
     display: flex;
@@ -127,7 +128,7 @@ a.dropbtn {
     width:clamp(100px, 200px);
   } 
 }
-@media screen and (min-width: 850px){
+@media screen and (min-width: 1150px){
     .show {
     display: none;
     }
@@ -139,6 +140,9 @@ a.dropbtn {
     height: 40px;
     padding-top: 45px;
     flex-shrink: 1;
+  }
+  #burgermenu{
+    margin-right: clamp(24px, 5vw, 160px);
   }
 }
 @media screen and (max-width: 400px){
