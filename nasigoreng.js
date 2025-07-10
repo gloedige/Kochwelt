@@ -1,107 +1,30 @@
-// <function bruchZuZahl(bruch) {
-//     if (!bruch) return 0;
-//     if (bruch.includes('/')) {
-//         const [zaehler, nenner] = bruch.split('/');
-//         return parseFloat(zaehler) / parseFloat(nenner);
-//     }
-//     return parseFloat(bruch);
-// }
-
-// function zahlZuBruchString(zahl) {
-//     if (zahl % 1 === 0) { return zahl.toString();}; // Ganze Zahl
-
-//     const ganz = Math.floor(zahl);
-//     const rest = zahl - ganz;
-
-//     const naheFraktionen = [
-//         { bruch: "1/4", wert: 0.25 },
-//         { bruch: "1/3", wert: 1 / 3 },
-//         { bruch: "1/2", wert: 0.5 },
-//         { bruch: "2/3", wert: 2 / 3 },
-//         { bruch: "3/4", wert: 0.75 }
-//     ];
-
-//     let naechste = naheFraktionen.reduce((prev, curr) =>
-//         Math.abs(curr.wert - rest) < Math.abs(prev.wert - rest) ? curr : prev
-//     );
-
-//     return ganz > 0 ? `${ganz} ${naechste.bruch}` : naechste.bruch;
-// }
-
-// function aktualisiereZutaten(event) {
-//     event.preventDefault();
-//     const portionen = parseInt(document.getElementById("input-portion").value);
-//     const zutaten = document.querySelectorAll("td[data-menge]");
-
-//     if (portionen<1){console.log('Wert muss größer gleich 1 sein')}
-//     else {
-//     zutaten.forEach(td => {
-//         const mengeRaw = td.getAttribute("data-menge");
-//         const einheit = td.getAttribute("data-einheit") || "";
-//         const zutat = td.getAttribute("data-zutat") || "";
-
-//         const mengeProPortion = bruchZuZahl(mengeRaw);
-//         const neueMenge = mengeProPortion * portionen;
-
-//         const text = isNaN(neueMenge)
-//             ? `${mengeRaw} ${einheit} ${zutat}` // Falls Umrechnung fehlschlägt
-//             : `${zahlZuBruchString(neueMenge)} ${einheit} ${zutat}`;
-        
-//         td.innerText = text.trim();
-//     });
-//     };
-// }
-function fractionToNumber(fraction) {
-    if (!fraction) return 0;
-    if (fraction.includes('/')) {
-        const [numerator, denominator] = fraction.split('/');
-        return parseFloat(numerator) / parseFloat(denominator);
-    }
-    return parseFloat(fraction);
-}
-
-function numberToFractionString(number) {
-    if (number % 1 === 0) { return number.toString(); } // Whole number
-
-    const whole = Math.floor(number);
-    const decimal = number - whole;
-
-    const commonFractions = [
-        { fraction: "1/4", value: 0.25 },
-        { fraction: "1/3", value: 1 / 3 },
-        { fraction: "1/2", value: 0.5 },
-        { fraction: "2/3", value: 2 / 3 },
-        { fraction: "3/4", value: 0.75 }
-    ];
-
-    let closest = commonFractions.reduce((prev, curr) =>
-        Math.abs(curr.value - decimal) < Math.abs(prev.value - decimal) ? curr : prev
-    );
-
-    return whole > 0 ? `${whole} ${closest.fraction}` : closest.fraction;
-}
-
-function updateIngredients(event) {
-    event.preventDefault();
-    const servings = parseInt(document.getElementById("input-portion").value);
-    const ingredients = document.querySelectorAll("td[data-menge]");
-
-    if (servings < 1) {
-        console.log('Value must be greater than or equal to 1');
-    } else {
-        ingredients.forEach(td => {
-            const rawAmount = td.getAttribute("data-menge");
-            const unit = td.getAttribute("data-einheit") || "";
-            const ingredient = td.getAttribute("data-zutat") || "";
-
-            const amountPerServing = fractionToNumber(rawAmount);
-            const newAmount = amountPerServing * servings;
-
-            const text = isNaN(newAmount)
-                ? `${rawAmount} ${unit} ${ingredient}`
-                : `${numberToFractionString(newAmount)} ${unit} ${ingredient}`;
-
-            td.innerText = text.trim();
-        });
-    }
+let datamenge1 = 75,
+    datamenge2 = 1,
+    datamenge3 = 1,
+    datamenge4 = 0.5,
+    datamenge5 = 1,
+    datamenge6 = 0.5,
+    datamenge7 = 7,
+    datamenge8 = 50,
+    datamenge9 = 1,
+    datamenge10 = 50,
+    datamenge11 = 0.5,
+    datamenge12 = 1,
+    datamenge13 = 0.5;
+function calculate(event) {
+    event.preventDefault(); 
+    let inputPortion = Number(document.getElementById("inputportion").value);
+    document.getElementById("datamenge1").innerHTML = (datamenge1 * inputPortion)+ " g"+" Langkornreis";
+    document.getElementById("datamenge2").innerHTML = (datamenge2 * inputPortion)+ " Prise(n)" + " Salz";
+    document.getElementById("datamenge3").innerHTML = (datamenge3 * inputPortion)+ " EL" + " Erdnussöl" ;
+    document.getElementById("datamenge4").innerHTML = (datamenge4 * inputPortion)+ " Zwiebel";
+    document.getElementById("datamenge5").innerHTML = (datamenge5 * inputPortion)+ " Knoblauchzehe"; 
+    document.getElementById("datamenge6").innerHTML = (datamenge6 * inputPortion)+ " Chilisote";
+    document.getElementById("datamenge7").innerHTML = (datamenge7 * inputPortion)+ " g" + " Ingwer";
+    document.getElementById("datamenge8").innerHTML = (datamenge8 * inputPortion)+ " g" + " Möhren";
+    document.getElementById("datamenge9").innerHTML = (datamenge9 * inputPortion)+ " Lauchzwiebel";
+    document.getElementById("datamenge10").innerHTML = (datamenge10 * inputPortion)+ " Spargelbohnen oder Prinzess-Bohnen";
+    document.getElementById("datamenge11").innerHTML = (datamenge11 * inputPortion)+ " Hähnchenbrustfilet";
+    document.getElementById("datamenge12").innerHTML = (datamenge12 * inputPortion)+ " EL" + " Sojasauce";
+    document.getElementById("datamenge13").innerHTML = (datamenge13 * inputPortion)+ " EL" + " Ketchup Mani<s";
 }
