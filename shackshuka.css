@@ -1,12 +1,11 @@
 
 .margin {
-    margin-left: clamp(24px ,5vw ,160px);
-    margin-right: clamp(24px ,5vw ,160px);
+    margin-right: clamp(24px, 11.1vw, 160px);
+    margin-left: clamp(24px, 11.1vw, 160px);
 }
 #dish-presentation {
     color:aliceblue
 }
-/*Image Manipulation*/
 #my-Img {
     object-fit: cover;
     width: 100%;
@@ -57,8 +56,6 @@
     font-weight: bold;
     transition: 0.3s;
 }   
-
-/*Image Manipulation End of the Section*/
 .text-aligning {
     text-align: left;
     width: auto;
@@ -116,7 +113,7 @@
     display: flex;
 }
 #section-seperator {
-    background-color: grey; /*anpassen mit colorpicker*/
+    background-color: grey; 
     height: 0.5px;
     width: auto;
     margin-top:50px;
@@ -132,7 +129,7 @@
     flex-direction: column;
 }
 #amount {
-    margin-left: clamp(50px, 5vw, 160px);
+    margin-left: clamp(24px, 11.1vw, 160px);
     margin-bottom:32px;
     margin-top:16px;
     display: flex;
@@ -162,7 +159,7 @@
 }
 #button-styling {
     background-color: green;
-    color: white; /*anpassen mit colorpicker*/
+    color: white;
     width: 128px;
     height:35px;
     cursor: pointer;
@@ -193,8 +190,8 @@ button:hover {
 }
 table#customers {
     border-spacing: 0;
-    margin-left: clamp(24px ,5vw ,160px);
-    margin-right: clamp(24px ,5vw ,160px);
+    margin-right: clamp(24px, 11.1vw, 160px);
+    margin-left: clamp(24px, 11.1vw, 160px);
     width: auto;
 }
 table,tr {
@@ -223,7 +220,7 @@ td {
     padding-right: 12px;
 }
 #creator-name {
-    font-family:'Raleway'; /*anpassen Font datei einbinden @Font-Face*/
+    font-family:'Raleway';
     color: black;
     font-size: 24px;
     font-weight:200;
@@ -257,27 +254,26 @@ td {
 }
 @media screen and (max-width: 700px){
     .button-aligning {
-        /* flex-direction: column; */
         gap: 4px;
     }
     .button {
         justify-content: center;
     }
     #amount {
-        /* flex-direction: column; */
+        margin-right: clamp(24px, 5vw, 160px);
         margin-left: clamp(24px, 5vw, 160px);
     }
     .margin {
-        margin-left: clamp(24px ,5vw ,160px);
-        margin-right: clamp(24px ,5vw ,160px);
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     table#customers {
-        margin-left: clamp(24px ,5vw ,160px);
-        margin-right: clamp(24px ,5vw ,160px);
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     #section-seperator {
-        margin-left: clamp(24px ,5vw ,160px);
-        margin-right: clamp(24px ,5vw ,160px);
+        margin-right: clamp(24px, 11.1vw, 160px);
+        margin-left: clamp(24px, 11.1vw, 160px);
     }
 }
 @media screen and (max-width: 600px){
@@ -306,6 +302,6 @@ td {
 }
 @media screen and (max-width: 325px){
     #my-Img {
-        width: 260px;
+        width: 275px;
     }
 }
