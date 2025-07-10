@@ -147,6 +147,6 @@ a.dropbtn {
 }
 @media screen and (max-width: 400px){
     .show {
-    transform: translatex(-40%);
+    transform: translatex(-80%);
 }
 }
