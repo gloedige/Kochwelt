@@ -16,7 +16,7 @@ header {
   background-position: center;
   width: 300px;
   height: 92px;
-  margin-left: clamp(24px, 10vw, 160px);
+  margin-left: clamp(24px, 15vw, 160px);
 }
 
 a {
@@ -34,7 +34,7 @@ nav.distance.horizontal {
   gap: 32px;
   flex-wrap: wrap;
   height:80px;
-  margin-right: clamp(24px, 10vw, 160px);
+  margin-right: clamp(24px, 15vw, 160px);
 }
 #separator_horizontal {
   border-bottom: 0.5px solid rgb(0, 0, 0);
@@ -44,7 +44,7 @@ nav.distance.horizontal {
   opacity: 0.2;
   width:100%;
 }
-/*Resp Burgermenu*/
+
 #burgermenu {
   background-image: url(/img/icons/bars-solid.svg);
   background-repeat: no-repeat;
@@ -54,7 +54,6 @@ nav.distance.horizontal {
   height: 25px;
   border: none;
   background-color: white;
-}
 }
 a.dropbtn {
   background-color:#3498D8;
@@ -94,7 +93,7 @@ a.dropbtn {
   display: block;
   transform: translatex(-85%);
 }
-/* Media Query */
+
 @media screen and (max-width: 1050px){
   .distance {
     gap: 16px;
@@ -102,13 +101,13 @@ a.dropbtn {
   body {
     margin: 0px;
     font-family: raleway;
-    font-size: 14px;
+    font-size: 16px;
   }
   #logo {
-    margin-left: clamp(24px, 10vw, 160px);
+    margin-left: clamp(24px, 7vw, 160px);
   } 
   nav.distance.horizontal {
-    margin-right: clamp(24px, 10vw, 160px);
+    margin-right: clamp(24px, 7vw, 160px);
   }
 }
 @media screen and (max-width: 850px){
