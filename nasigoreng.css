@@ -137,7 +137,8 @@ table {
     width: clamp(24px, 10vw, 160px);
     }
 }
-@media(max-width: 530px) {
+
+@media(max-width: 600px) {
     .p-text{
         font-size: 16px;
     }
@@ -148,10 +149,11 @@ table {
         padding: 5px 8px;
     }
     .nasigoreng-main {
-        margin-right:15px;
-        margin-left:15px;
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
 }
+
 @media(max-width:400px){
     .button-portion{
         width: 100px;
