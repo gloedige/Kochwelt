@@ -304,3 +304,8 @@ td {
         padding: 10px 0px;
     }
 }
+@media screen and (max-width: 325px){
+    #my-Img {
+        width: 260px;
+    }
+}
