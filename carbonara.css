@@ -12,7 +12,7 @@ h1, h2, h3{
 }
 .carbonara-img{
     height: 240px;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     border-radius: 5px;
     border: none;
@@ -108,9 +108,11 @@ td {
     font-size: 32px;
 }
 @media(max-width:600px){
+    .section-welcome{
+        margin-top: clamp(20px, 10vw, 80px);
+    }
     .section-preparation-info{
-        gap:16px;
-        justify-content: space-evenly;
+        gap:8px;
     }
     .button-info{
         justify-content: center;
@@ -125,27 +127,34 @@ td {
     input{
         width:clamp(24px, 14vw, 96px) ;
     }
-    p{
-        font-size: 12px;
-    }
-    table{
-        font-size: 10px;
-    }
     td {
         padding: 10px 20px;
     }
     .preparation-text {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 @media(max-width:500px){  
     input{
         flex: none;
         margin-left: 0px;
-        /* width: clamp(36px, 23vw, 124px) */
+    }
+    .section-welcome{
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .section-recipe-info{
-        gap:16px;
+        gap:8px;
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
+    }
+    .section-incredients-overview{
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
+    }
+    .section-preparation{
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .user-img{
         width: 96px;
@@ -153,6 +162,8 @@ td {
     }
     .section-content-owner{
         margin-bottom: 40px;
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .button {
         padding-left: clamp(34px,10vw,48px);
