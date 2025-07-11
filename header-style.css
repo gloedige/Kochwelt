@@ -4,6 +4,8 @@ header {
   align-items: center;
   height: 112px;
   flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .grey {
