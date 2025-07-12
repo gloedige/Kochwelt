@@ -2,6 +2,10 @@ h1, h2, h3{
     text-align: left;
     margin-bottom: 32px;
 }
+.content-limiter{
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .section-welcome{
     margin-right: clamp(24px, 11.1vw, 160px);
     margin-left: clamp(24px, 11.1vw, 160px);

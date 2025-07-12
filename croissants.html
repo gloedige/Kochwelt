@@ -30,66 +30,68 @@
             </div>
     </header>
     <div id="separator_horizontal"></div>
-    <section class="section-welcome">
-        <h1>Französische Croissants</h1>
-        <div class="container-carbonara-img">
-            <img src="./img/croissant.jpg" alt="picture of a big croissant" class="carbonara-img">
-        </div>
-    </section>
-    <section class="section-recipe-info">
-        <button class="button-info">
-            <img src="./img/icons/clock-regular.svg" alt="duration of preparation" class="icon-img">
-            <p>15 Min.</p>
-        </button>
-        <button class="button-info">
-            <img src="./img/icons/brain-solid.svg" alt="skills level" class="icon-img">
-            <p>normal</p>
-        </button>
-        <button class="button-info">
-            <img src="./img/icons/calendar-alt-regular.svg" alt="date of creation" class="icon-img">
-            <p>24.06.25</p>
-        </button>
-    </section>
-    <section class="section-incredients-overview">
-        <div class="divider"></div>
-        <form class="scaler" id="formPortion">
-                <label for="factor_portion">Zutaten für </label>
-                <input type="number" id="factor_portion" min="1" max="20" value=4>
-                <button type="submit" class="button" id="portionButton">Portionen</button>
-        </form>
-        <table class="table-style" id="table-incredients"></table>
-    </section>
-    <section class="section-preparation">
-        <h2>Zubereitung</h2>
-        <div class="section-preparation-info">
+    <div class="content-limiter">
+        <section class="section-welcome">
+            <h1>Französische Croissants</h1>
+            <div class="container-carbonara-img">
+                <img src="./img/croissant.jpg" alt="picture of a big croissant" class="carbonara-img">
+            </div>
+        </section>
+        <section class="section-recipe-info">
             <button class="button-info">
                 <img src="./img/icons/clock-regular.svg" alt="duration of preparation" class="icon-img">
-                <p>15 Min</p>
+                <p>15 Min.</p>
             </button>
             <button class="button-info">
-                <img src="./img/icons/clock-regular.svg" alt="duration of preparation in total" class="icon-img">
-                <p>Gesamt 25 Min</p>
+                <img src="./img/icons/brain-solid.svg" alt="skills level" class="icon-img">
+                <p>normal</p>
             </button>
-        </div>
-        <span class="preparation-text">
-            Für den Teig Mehl, Zucker, weiche Butter, Salz und Hefe mischen und mit Wasser sowie Milch zu einem elastischen Teig kneten, dann kühl stellen. 
-            <br><br>
-            Die kalte Butter wird in den Teig eingearbeitet, der mehrfach touriert (gefaltet und ausgerollt) und dazwischen immer wieder gekühlt wird.
-            <br><br>
-            Nach mehreren Faltvorgängen wird der Teig ausgerollt und je nach Gebäckart in Dreiecke (für Croissants) oder Rechtecke (für Pains au chocolat) geschnitten.
-            <br><br>
-            Die Croissants werden geformt, die Pains au chocolat mit Schokolade gefüllt, beide auf ein Blech gelegt und mit gezuckerter Milch bestrichen.
-            <br><br>
-            Nach einer Gehzeit von 1–2 Stunden werden sie bei 180 °C ca. 12–15 Minuten gebacken – für den typischen blättrigen Effekt ist echte Butter und Geduld essenziell.
-        </span>
-    </section>
-    <section class="section-content-owner">
-        <h3>Rezept erstellt von</h3>
-        <div class="container-user">
-            <img src="./img/profile.png" alt="user pic" class="user-img">
-            <p class="p-user-name">Team Kochwelt</p>
-        </div>
-    </section>
+            <button class="button-info">
+                <img src="./img/icons/calendar-alt-regular.svg" alt="date of creation" class="icon-img">
+                <p>24.06.25</p>
+            </button>
+        </section>
+        <section class="section-incredients-overview">
+            <div class="divider"></div>
+            <form class="scaler" id="formPortion">
+                    <label for="factor_portion">Zutaten für </label>
+                    <input type="number" id="factor_portion" min="1" max="20" value=4>
+                    <button type="submit" class="button" id="portionButton">Portionen</button>
+            </form>
+            <table class="table-style" id="table-incredients"></table>
+        </section>
+        <section class="section-preparation">
+            <h2>Zubereitung</h2>
+            <div class="section-preparation-info">
+                <button class="button-info">
+                    <img src="./img/icons/clock-regular.svg" alt="duration of preparation" class="icon-img">
+                    <p>15 Min</p>
+                </button>
+                <button class="button-info">
+                    <img src="./img/icons/clock-regular.svg" alt="duration of preparation in total" class="icon-img">
+                    <p>Gesamt 25 Min</p>
+                </button>
+            </div>
+            <span class="preparation-text">
+                Für den Teig Mehl, Zucker, weiche Butter, Salz und Hefe mischen und mit Wasser sowie Milch zu einem elastischen Teig kneten, dann kühl stellen. 
+                <br><br>
+                Die kalte Butter wird in den Teig eingearbeitet, der mehrfach touriert (gefaltet und ausgerollt) und dazwischen immer wieder gekühlt wird.
+                <br><br>
+                Nach mehreren Faltvorgängen wird der Teig ausgerollt und je nach Gebäckart in Dreiecke (für Croissants) oder Rechtecke (für Pains au chocolat) geschnitten.
+                <br><br>
+                Die Croissants werden geformt, die Pains au chocolat mit Schokolade gefüllt, beide auf ein Blech gelegt und mit gezuckerter Milch bestrichen.
+                <br><br>
+                Nach einer Gehzeit von 1–2 Stunden werden sie bei 180 °C ca. 12–15 Minuten gebacken – für den typischen blättrigen Effekt ist echte Butter und Geduld essenziell.
+            </span>
+        </section>
+        <section class="section-content-owner">
+            <h3>Rezept erstellt von</h3>
+            <div class="container-user">
+                <img src="./img/profile.png" alt="user pic" class="user-img">
+                <p class="p-user-name">Team Kochwelt</p>
+            </div>
+        </section>
+    </div>
     <footer>
         <section class="section-footer">
             <div class="footer-left-side">
