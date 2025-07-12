@@ -4,12 +4,12 @@ footer {
 
 .footer-left-side{
     display: flex;
-    margin-left: 160px;
+    margin-left: clamp(24px, 11.1vw, 160px);
 }
 
 
 .footer-right-side {
-    margin-right: 160px;
+    margin-right: clamp(24px, 11.1vw, 160px);
 }
 
 .footer-logo {
@@ -53,14 +53,6 @@ footer {
     .footer-icon {
         height: 32px;
     }
-
-    .footer-right-side {
-        margin-right: 100px;
-    }
-
-    .footer-left-side{
-        margin-left: 100px;
-    }
 }
 
 
@@ -72,20 +64,15 @@ footer {
     .footer-icon {
         height: 24px;
     }
-
-
-    .footer-left-side{
-        margin-left: 70px;
-    }
 }
 
-@media(max-width: 550px) {
+@media(max-width: 600px) {
     .footer-right-side {
-        margin-right: 20px;
+        margin-right: clamp(24px, 5vw, 160px);
     }
 
     .footer-left-side{
-        margin-left: 20px;
+        margin-left: clamp(24px, 5vw, 160px);
     }
 }
 
@@ -96,7 +83,6 @@ footer {
     }
 
         .footer-right-side {
-        margin-right: 70px;
         height: 100px;
     }
 }
