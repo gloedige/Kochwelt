@@ -1,11 +1,13 @@
 .section-croissants{
     display: flex;
-    padding: 0px 160px;
+    margin: 0 auto;
     margin-top: 120px;
+    max-width: 1440px;
 }
 .croissant-img{
     height: 300px;
     margin-top: 0px;
+    margin-left: 160px;
     border-radius: 10px;
 }
 .h2-croissants{
@@ -13,6 +15,7 @@
 }
 .croissants-info{
     margin-left: 32px;
+    margin-right: 160px;
 }
 .croissants-text{
     margin-bottom: 60px;
@@ -27,19 +30,26 @@
     height: 250px;
     object-fit: cover;
 }
-.section-proposal-overview{
+.proposal-overview-bg {
     background-color: #EFEFEF;
+}
+.section-proposal-overview{
     padding-top: 20px;
     padding-bottom: 64px;
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 100px;
 }
 .section-further-topics{
-    padding: 0px 160px;
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 60px;
     margin-bottom: clamp(24px, 10vw, 160px);
 }
 .container-further-topics-info{
     display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .further-topics-img{
     height: 250px;
@@ -54,6 +64,12 @@
 }
 
 @media(max-width: 1200px){
+    .croissant-img{
+        margin-left: 0px;
+    }
+    .croissants-info{
+        margin-right: 0px;
+    }
     .section-croissants{
         flex-direction: column;
         padding-right: clamp(24px, 10vw, 160px);
@@ -87,6 +103,10 @@
             width: 400px;
             height: 400px;
     }
+    .container-further-topics-info{
+        margin-left: clamp(24px, 10vw, 160px);;
+        margin-right: clamp(24px, 10vw, 160px);;
+    }
     @media(max-width:1000px){
         .section-further-topics{
             padding-right: clamp(24px, 10vw, 160px);
@@ -94,6 +114,8 @@
         }
         .container-further-topics-info{
             flex-direction: column-reverse;
+            margin-left: 0px;
+            margin-right: 0px;
         }
         .further-topics-img{
             object-fit: cover;
@@ -109,7 +131,10 @@
         .single-recipe-img{
             width: 200px;
             height: 200px;
-        }    
+        }
+        .recipe-overview{
+            padding: 0px 0px;
+        } 
     }
 
 }
