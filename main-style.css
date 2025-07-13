@@ -5,6 +5,11 @@ body {
     margin: 0px;
     font-family: raleway;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 .container-main-content{
     flex:1;
 }
