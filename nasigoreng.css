@@ -83,6 +83,7 @@ h3 {
     display: flex;
     align-items: center;
     padding-bottom: 32px;
+    gap: 16px;
 }
 
 table{
@@ -147,7 +148,7 @@ table {
         font-size: 16px;
     }
     .information{
-        gap: 8px;
+        gap: 2px;
     }
     .icon-text {
         padding: 5px 8px;
@@ -160,7 +161,7 @@ table {
 
 @media(max-width:400px){
     .button-portion{
-        width: 100px;
+        width: 80px;
         flex: 1;
     }
     .icon-text {
