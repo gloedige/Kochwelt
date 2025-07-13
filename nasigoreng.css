@@ -2,6 +2,11 @@
     margin-left: clamp(24px, 11vw, 160px);
     margin-right: clamp(24px, 11vw, 160px);
 }
+.content-limiter{
+    margin: 0 auto;
+    max-width: 1440px;
+    flex:1;
+}
 .food-image {
     width: 100%;
     height: 14rem;
