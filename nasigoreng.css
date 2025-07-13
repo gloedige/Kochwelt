@@ -27,7 +27,6 @@ h3 {
 }
 .icon-image {
     width: 14px;
-    margin-right: 5px;
 }
 
 .icon-text {
@@ -158,5 +157,9 @@ table {
     .button-portion{
         width: 100px;
         flex: 1;
+    }
+    .icon-text {
+        padding: 0px 5px;
+        gap: 5px;
     }
 }
