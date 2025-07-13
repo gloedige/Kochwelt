@@ -5,6 +5,7 @@ h1, h2, h3{
 .content-limiter{
     margin: 0 auto;
     max-width: 1440px;
+    flex:1;
 }
 .section-welcome{
     margin-right: clamp(24px, 11.1vw, 160px);
