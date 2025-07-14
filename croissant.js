@@ -1,26 +1,28 @@
 const factorInput = document.getElementById('factor_portion');
 const formPortion = document.getElementById('formPortion');
 let table = document.getElementById('table-incredients');
-const amount = [120, 50, 1, 20, 20, 5, 2];
-const unit = [" g "," g "," ", " g "," g "," ml "," g "];
-const incredient = ["Pasta, lang und dünn",
-    "Pancetta, Guanciale",
-    "Ei(er)",
-    "Parmesan, frisch geriebgen",
-    "Pecorino romano, frisch gerieben",
-    "Olivenöl",
-    "Salz und Pfeffer"];
+let amount = [250, 30, 50, 0.5, 12, 115, 5, 125];
+let unit = [" g "," g "," g ", " TL "," g "," g "," g "," "," g "];
+let incredient = [
+    "Mehl",
+    "Zucker",
+    "Butter, weiche",
+    "Salz",
+    "Frischhefe",
+    "Wasser, kaltes",
+    "Milch",
+    "Butter, kalte"];
 
 function initTable(){
     for (let i=0; i<amount.length; i++){
         let row = table.insertRow(i);
-        let cell = row.insertCell(0);
+        let cell1 = row.insertCell(0);
         let quantityOfOne = amount[i];
         let varUnit = unit[i];
         let varIncredient = incredient[i];
         let varCalcQuantity = factorInput.value*quantityOfOne;
-        cell.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
-    }
+        cell1.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
+    };
 };
 
 function calcQuantity(){
@@ -30,15 +32,15 @@ function calcQuantity(){
 
     for (let i=0; i<amount.length; i++){
         let row = table.rows[i];
-        let cell = row.cells[0];
+        let cell1 = row.cells[0];
         let quantityOfOne = amount[i];
         let varUnit = unit[i];
         let varIncredient = incredient[i];
         let varCalcQuantity = factorInput.value*quantityOfOne;
-        cell.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
-    }
+        cell1.innerHTML = `${varCalcQuantity}${varUnit}${varIncredient}`;
+    };
+    
 };
-
 initTable();
 
 formPortion.addEventListener('submit', function(event){

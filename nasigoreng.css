@@ -2,6 +2,11 @@
     margin-left: clamp(24px, 11vw, 160px);
     margin-right: clamp(24px, 11vw, 160px);
 }
+.content-limiter{
+    margin: 0 auto;
+    max-width: 1440px;
+    flex:1;
+}
 .food-image {
     width: 100%;
     height: 14rem;
@@ -27,7 +32,6 @@ h3 {
 }
 .icon-image {
     width: 14px;
-    margin-right: 5px;
 }
 
 .icon-text {
@@ -54,7 +58,7 @@ h3 {
     gap: 16px;
 }
 
-.input-portion {
+.inputportion {
     width: 154px;
     height: 38px;
     border-radius: 6px;
@@ -79,6 +83,7 @@ h3 {
     display: flex;
     align-items: center;
     padding-bottom: 32px;
+    gap: 16px;
 }
 
 table{
@@ -108,12 +113,11 @@ table {
 }
 @media(max-width: 800px) {
     .information {
-        flex-direction: column;
+
         align-items: center;
     }
 
     .portion{
-        flex-direction: column;
         align-items: center;
     }
 
@@ -133,8 +137,35 @@ table {
     p{
         font-size: 20px;
     }
+
+    .inputportion{
+    width: clamp(24px, 10vw, 160px);
+    }
 }
 
+@media(max-width: 600px) {
+    .p-text{
+        font-size: 16px;
+    }
+    .information{
+        gap: 2px;
+    }
+    .icon-text {
+        padding: 5px 8px;
+    }
+    .nasigoreng-main {
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
+    }
+}
 
-
-
+@media(max-width:400px){
+    .button-portion{
+        width: 80px;
+        flex: 1;
+    }
+    .icon-text {
+        padding: 0px 5px;
+        gap: 5px;
+    }
+}

@@ -2,6 +2,11 @@ h1, h2, h3{
     text-align: left;
     margin-bottom: 32px;
 }
+.content-limiter{
+    margin: 0 auto;
+    max-width: 1440px;
+    flex:1;
+}
 .section-welcome{
     margin-right: clamp(24px, 11.1vw, 160px);
     margin-left: clamp(24px, 11.1vw, 160px);
@@ -12,7 +17,7 @@ h1, h2, h3{
 }
 .carbonara-img{
     height: 240px;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     border-radius: 5px;
     border: none;
@@ -60,7 +65,7 @@ h1, h2, h3{
 input{
     height: 36px;
     margin-left: 8px;
-    width: 157px;
+    width: 124px;
 }
 table#customers {
     border-spacing: 0;
@@ -108,36 +113,53 @@ td {
     font-size: 32px;
 }
 @media(max-width:600px){
-    .section-recipe-info{
-        gap:0px;
-        justify-content: space-evenly;
+    .section-welcome{
+        margin-top: clamp(20px, 10vw, 80px);
     }
     .section-preparation-info{
-        gap:16px;
-        flex-direction: column;
-        justify-content: space-evenly;
+        gap:8px;
     }
     .button-info{
         justify-content: center;
+        padding: 0px 4px;
+    }
+    .icon-img {
+        margin-right: 2px;
     }
     .preparation-text{
         font-size: 16px;
     }
     input{
-        flex: 1;
+        width:clamp(24px, 14vw, 96px) ;
+    }
+    td {
+        padding: 10px 20px;
+    }
+    .preparation-text {
+        font-size: 16px;
     }
 }
-@media(max-width:500px){
-    
+@media(max-width:600px){  
     input{
         flex: none;
-        margin-left: 0px;
-    }.scaler{
-        flex-direction: column;
+        margin-left: 8px;
+    }
+    .section-welcome{
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .section-recipe-info{
-        gap:16px;
-        flex-direction: column;
+        gap:8px;
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
+    }
+    .section-incredients-overview{
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
+    }
+    .section-preparation{
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .user-img{
         width: 96px;
@@ -145,5 +167,13 @@ td {
     }
     .section-content-owner{
         margin-bottom: 40px;
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
+    }
+    .button {
+        padding-left: clamp(34px,10vw,48px);
+        padding-right: clamp(34px,10vw,48px);
+        text-align: center;
+        padding: 12px 18px;
     }
 }

@@ -1,22 +1,20 @@
-
+.content-limiter{
+    margin: 0 auto;
+    max-width: 1440px;
+    flex:1;
+}
 .margin {
-    margin-left: clamp(24px ,10vw ,160px);
-    margin-right: clamp(24px ,10vw ,160px);
+    margin-right: clamp(24px, 11.1vw, 160px);
+    margin-left: clamp(24px, 11.1vw, 160px);
 }
 #dish-presentation {
     color:aliceblue
 }
-/*Image Manipulation*/
 #my-Img {
-    cursor: pointer;
-    transition: 0.3s;
     object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px
-}
-#my-Img:hover {
-    opacity: 0.7;
 }
 .modal {
     display: none; 
@@ -62,14 +60,6 @@
     font-weight: bold;
     transition: 0.3s;
 }   
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-/*Image Manipulation End of the Section*/
 .text-aligning {
     text-align: left;
     width: auto;
@@ -127,7 +117,7 @@
     display: flex;
 }
 #section-seperator {
-    background-color: grey; /*anpassen mit colorpicker*/
+    background-color: grey; 
     height: 0.5px;
     width: auto;
     margin-top:50px;
@@ -143,7 +133,7 @@
     flex-direction: column;
 }
 #amount {
-    margin-left:160px;
+    margin-left: clamp(24px, 11.1vw, 160px);
     margin-bottom:32px;
     margin-top:16px;
     display: flex;
@@ -173,7 +163,7 @@
 }
 #button-styling {
     background-color: green;
-    color: white; /*anpassen mit colorpicker*/
+    color: white;
     width: 128px;
     height:35px;
     cursor: pointer;
@@ -204,7 +194,8 @@ button:hover {
 }
 table#customers {
     border-spacing: 0;
-    margin:0 160px;
+    margin-right: clamp(24px, 11.1vw, 160px);
+    margin-left: clamp(24px, 11.1vw, 160px);
     width: auto;
 }
 table,tr {
@@ -233,7 +224,7 @@ td {
     padding-right: 12px;
 }
 #creator-name {
-    font-family:'Raleway'; /*anpassen Font datei einbinden @Font-Face*/
+    font-family:'Raleway';
     color: black;
     font-size: 24px;
     font-weight:200;
@@ -245,8 +236,7 @@ td {
 }
 .leftalign {
     text-align: left;
-    padding:20px 0;
-    margin-top:120px;
+    margin-top:40px;
 }
 .rightalign {
     text-align:right;
@@ -268,57 +258,49 @@ td {
 }
 @media screen and (max-width: 700px){
     .button-aligning {
-        flex-direction: column;
-        gap: 8px;
-        max-width: 500px;
+        gap: 4px;
     }
     .button {
         justify-content: center;
     }
     #amount {
-        flex-direction: column;
-        margin-left: clamp(50px, 10vw, 160px);
-        margin-left: 0px;
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     .margin {
-        margin-left: clamp(24px ,10vw ,160px);
-        margin-right: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     table#customers {
-        margin-left: clamp(24px ,10vw ,160px);
-        margin-right: clamp(24px ,10vw ,160px);
+        margin-right: clamp(24px, 5vw, 160px);
+        margin-left: clamp(24px, 5vw, 160px);
     }
     #section-seperator {
-        margin-left: clamp(24px ,10vw ,160px);
-        margin-right: clamp(24px ,10vw ,160px);
-    }
-}
-@media screen and (max-width: 675px){
-    .button-adjust {
-        flex-direction: column;
-    }
-    .button {
-        padding: 12px 58px;
-    }
-    #portionen {
-        padding: 12px 0px;
-        padding-right: 56px;
-    }
-    .button-adjust {
-        align-items: center;
+        margin-right: clamp(24px, 11.1vw, 160px);
+        margin-left: clamp(24px, 11.1vw, 160px);
     }
 }
 @media screen and (max-width: 600px){
+    .button {
+        padding-right: clamp(12px,5vw,48px);
+        padding-left: clamp(12px,5vw,48px);
+    }
+    #portionen {
+        width: clamp(40px, 20vw, 128px);
+        padding: 12px 0px;
+    }
     .button-adjust {
         align-items: center;
     }
 }
+@media screen and (max-width: 430px){
+    .info-container {
+        padding: 5px 2px;
+        gap: 6px
+    }
+}
 @media screen and (max-width: 400px){
-    .button {
-        font-size: 12px;
-        }
     #portionen {
-        padding: 12px 0px;
-        padding-right: 34px;
+        padding: 10px 0px;
     }
 }

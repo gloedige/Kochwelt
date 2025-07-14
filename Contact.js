@@ -1,4 +1,4 @@
-function sendMail(event){﻿
+function sendMail(event){
     event.preventDefault();
     const data = new FormData(event.target);
     fetch("https://formspree.io/f/mjkroeej", {
@@ -9,7 +9,5 @@ function sendMail(event){﻿
         }
     }).then(() => {
         window.location.href = "./sent_mail.html";
-    }).catch((error) => {
-        console.log(error);
     });
 }
